@@ -1,0 +1,186 @@
+/* Import the font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+/* Reset html */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Set some basic feature for the whole html */
+html {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.logo a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 60px;
+}
+
+.logo a:hover {
+    cursor: pointer;
+    color:#c7bdb1;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #5a473a;
+    border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+}
+
+a.nav__link {
+    margin-left: 15px;
+    color: #ddd9d6;
+    padding: 10px;
+    font-size: 24px;
+    border-bottom: 0px solid #fff;
+    transition: border-bottom 0.2s ease;
+
+}
+
+a.nav__link.push {
+    margin-left: 620px;
+}
+
+a.nav__link:hover {
+    cursor: pointer;
+    color: #ffffff;
+    border-bottom: 3px solid #fff;
+    
+}
+
+.nav__mobile-close:hover {
+    cursor: pointer;
+    color: black;
+}
+
+a.nav__mobile-link {
+    margin: 20px 30px;
+}
+
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 48px;
+}
+
+/* mobile nav bar css */
+.nav__bars-btn {
+    width: 28px;
+    height: 28px;
+    color: #fff;
+    display: none;
+    margin-left: 50%;
+    position: absolute;
+    right: 50px;
+}
+
+.nav__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    animation: FadeIn linear 0.2s;
+}
+
+
+.nav__mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background: white;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform linear 0.2s, opacity linear 0.2s;
+}
+
+.nav__mobile-list{
+    margin-top: 24px;
+}
+
+.nav__mobile-link{
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 1.4rem;
+    padding: 10px 0px;
+}
+
+.nav__mobile-link:hover{
+    color: #5a473a;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav__mobile-close {
+    width: 28px;
+    height: 28px;
+    color: #666;
+    position: absolute;
+    top: 0.4rem;
+    right: 1rem;
+}
+
+.nav__input:checked ~ .nav__overlay {
+    display: block;
+}
+
+.nav__input:checked ~ .nav__mobile {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+@media (max-width: 2100px) {
+    .nav__bars-btn {
+        display: block;
+    }
+
+    .nav__pc {
+        display: none;
+    }
+}
+
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
