@@ -14,7 +14,7 @@ form {
     top: 25%;
     left: 35%;
     width: 30%;
-    height: 60%;
+    height: 55%;
     border: 1px solid black;
     border-radius: 8px;
     box-shadow: 0 0 10px white;
@@ -88,7 +88,7 @@ hr {
 #register button {
     outline: none;
     width: 50%;
-    margin: 2% 0;
+    margin: 5% 0;
     height: 45px;
     color: white;
     font-family: 'Poppins';
@@ -117,7 +117,7 @@ hr {
     }
 
     #register button {
-        margin: 2% 0;
+        margin: 10% 0;
     }
 }
 
@@ -128,7 +128,13 @@ hr {
     }
 }
 
-@media only screen and (min-width: 2000px){
+@media only screen and (min-width: 1000px) {
+    #register button {
+        margin: 7.5% 0;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
     input {
         height: 100px;
         font-size: 25px;
