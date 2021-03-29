@@ -14,10 +14,6 @@ html {
     font-family: 'Ubuntu', sans-serif;
 }
 
-body {
-    margin: 0;
-}
-
 .main {
     width: 100%;
     min-height: 100vh;
@@ -167,7 +163,7 @@ a.nav__mobile-link {
     opacity: 1;
 }
 
-@media (max-width: 2100px) {
+@media (max-width: 2300px) {
     .nav__bars-btn {
         display: block;
     }
@@ -183,5 +179,11 @@ a.nav__mobile-link {
     }
     to {
         opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .logo a {
+        font-size: 30px;
     }
 }
