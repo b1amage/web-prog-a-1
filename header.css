@@ -126,6 +126,12 @@ a.nav__mobile-link {
     transition: transform linear 0.2s, opacity linear 0.2s;
 }
 
+@media only screen and (max-width: 350px) {
+    .nav__mobile {
+        width: 200px;
+    }
+}
+
 .nav__mobile-list{
     margin-top: 24px;
     list-style: none;
