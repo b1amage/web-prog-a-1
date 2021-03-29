@@ -120,6 +120,10 @@ hr {
 
 /* Responsive */
 @media only screen and (max-width: 760px) {
+    form {
+        box-shadow: 0 0 10px gray;
+    }
+
     img {
         display: none;
     }
