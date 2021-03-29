@@ -27,6 +27,7 @@ footer {
 footer nav {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 footer nav ul li {
@@ -46,4 +47,26 @@ footer nav ul li:hover a {
     font-weight: bold;
     border-bottom: 3px solid #fff;
     cursor: pointer;
+}
+
+footer .left {
+    color: #ddd9d6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    margin-left: 20px;
+    line-height: 56px;
+    position: absolute;
+    left: 20px;
+}
+
+footer .right {
+    color: #ddd9d6;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    margin-left: 20px;
+    line-height: 56px;
+    position: absolute;
+    right: 20px;
 }
