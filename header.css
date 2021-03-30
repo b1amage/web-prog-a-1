@@ -14,7 +14,7 @@ html {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.main {
+main {
     width: 100%;
     min-height: 100vh;
     max-width: 100%;
@@ -36,7 +36,7 @@ html {
     color:#c7bdb1;
 }
 
-.nav {
+.first-nav {
     display: flex;
     align-items: center;
     height: 100px;
