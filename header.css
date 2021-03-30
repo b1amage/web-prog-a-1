@@ -28,7 +28,7 @@ html {
     text-transform: uppercase;
     margin-left: 20px;
     color: #fff;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .logo a:hover {
@@ -169,7 +169,7 @@ a.nav__mobile-link {
     opacity: 1;
 }
 
-@media (max-width: 2300px) {
+@media (max-width: 2000px) {
     .nav__bars-btn {
         display: block;
     }
