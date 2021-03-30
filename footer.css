@@ -16,7 +16,7 @@ html {
 
 footer {
     display: block;
-    height: 56px;
+    height: 42px;
     background-color: #5a473a;
     position: fixed;
     width: 100%;
@@ -32,7 +32,7 @@ footer nav {
 
 footer nav ul li {
     display: inline-block;
-    line-height: 56px;
+    line-height: 42px;
 }
 
 footer nav ul li a {
