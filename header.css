@@ -200,7 +200,7 @@ a.nav__mobile-link {
 
 .nav__list .subnav li:hover a,
 .nav__list > li:hover > a {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .nav_list .subnav li {
@@ -253,10 +253,6 @@ a.nav__mobile-link {
     color: #5a473a;
 }
 
-/* .hover-browse:hover ~ .subnav-mobile {
-    display: block;
-} */
-
 .check-subnav:checked ~ .subnav-mobile {
     display: block;
 }
@@ -271,4 +267,13 @@ a.nav__mobile-link {
 .hover-browse {
     padding: 20px;
     list-style: none;
+}
+
+.ti-angle-double-down {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+li:hover a.nav__link i {
+    text-decoration: none;
 }
