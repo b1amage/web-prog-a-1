@@ -269,7 +269,8 @@ a.nav__mobile-link {
     list-style: none;
 }
 
-.ti-angle-double-down {
+.ti-angle-double-down,
+.ti-angle-double-up {
     font-size: 14px;
     margin-left: 5px;
 }
@@ -277,3 +278,7 @@ a.nav__mobile-link {
 li:hover a.nav__link i {
     text-decoration: none;
 }
+
+
+
+
