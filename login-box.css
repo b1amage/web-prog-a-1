@@ -10,7 +10,7 @@
     height: auto;
     padding-bottom: calc(16/9);
 } */
-.main {
+main {
     position: relative;
     padding-bottom: calc(1440/635);
 }
