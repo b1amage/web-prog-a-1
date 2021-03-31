@@ -14,7 +14,7 @@ html {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.main {
+main {
     width: 100%;
     min-height: 100vh;
     max-width: 100%;
@@ -36,7 +36,7 @@ html {
     color:#c7bdb1;
 }
 
-.nav {
+.first-nav {
     display: flex;
     align-items: center;
     height: 100px;
@@ -80,7 +80,7 @@ a.nav__link:hover {
 }
 
 a.nav__mobile-link {
-    margin: 20px 30px;
+    padding: 20px;
 }
 
 
@@ -90,7 +90,7 @@ a.nav__mobile-link {
     margin-right: 48px;
 }
 
-/* mobile nav bar css */
+/* Mobile nav bar */
 .nav__bars-btn {
     width: 28px;
     height: 28px;
@@ -192,4 +192,83 @@ a.nav__mobile-link {
     .logo a {
         font-size: 30px;
     }
+}
+
+.nav__list li:hover .subnav {
+    display: block;
+}
+
+.nav__list .subnav li:hover a,
+.nav__list > li:hover > a {
+    text-decoration: underline;
+}
+
+.nav_list .subnav li {
+    padding-top: 100px;
+}
+
+.nav__list .subnav {
+    display: none;
+    position: absolute;
+    background-color: #5a473a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    min-width: 160px;
+    min-height: 100px;
+    top: 75px;
+    right: 600;
+    list-style: none;
+    
+}
+
+.nav__list .subnav a {
+    color: black;
+    padding: 0px 12px;
+    line-height: 38px;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.subnav-mobile {
+    display: none;
+}
+
+.subnav-mobile li {
+    list-style: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    
+}
+
+.subnav-mobile li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.subnav-mobile li:hover a {
+    text-decoration: underline;
+    color: #5a473a;
+}
+
+/* .hover-browse:hover ~ .subnav-mobile {
+    display: block;
+} */
+
+.check-subnav:checked ~ .subnav-mobile {
+    display: block;
+}
+
+#subnav-mobile-check {
+    position: absolute;
+    top: 320px;
+    left: 100px;
+    display: none;
+}
+
+.hover-browse {
+    padding: 20px;
+    list-style: none;
 }
