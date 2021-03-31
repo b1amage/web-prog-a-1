@@ -231,109 +231,15 @@ a.nav__mobile-link {
     padding-top: 20px;
 }
 
-/* .subnav-mobile {
-    list-style: none;
-    margin: 0px 30px;
-    position: absolute;
-    top: 335px;
-    left: 70px;
-    display: none;
-    z-index: 2;
-} */
-
-/* summary {
-    max-height: 40px;
-}
-
-.hover-browse {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 0;
-    text-decoration: none;
-    color: black;
-    display: block;
-    font-size: 1.4rem;
-}
-
-.subnav-mobile li {
-    margin: 0px;
-    line-height: 20px;
-    
-}
-
-.subnav-mobile li a {
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-    min-height: 100px;
-}
-
-.subnav-mobile li:hover a {
-    text-decoration: underline;
-}
-
-.hover-browse:hover ~ .subnav-mobile {
-    display: block;
-} */
-
-/* .nav__mobile-list, .subnav-mobile {
-    list-style: none;
-}
-
-.nav__mobile-list > li {
-    display: block;
-}
-
-.nav__mobile-list li {
-    position: relative;
-}
-
-.nav__mobile-list > li > a {
-    color: black;
-    text-transform: uppercase;
-}
-
-.nav__mobile-list li a {
-    text-decoration: none;
-    line-height: 46px;
-    padding: 0px 24px;
-    display: block;
-}
-
-.nav__mobile-list li:hover .subnav-mobile {
-    display: block;
-}
-
-.nav__mobile-list .subnav-mobile li:hover a,
-.nav__mobile-list > li:hover > a {
-    background-color: #ccc;
-    color: black;
-}
-
-.nav__mobile-list .subnav-mobile {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    min-width: 160px;
-    top: 100%;
-    left: 0;
-}
-.nav__mobile-list .subnav-mobile a {
-    color: black;
-    padding: 0px 12px;
-    line-height: 38px;
-} */
-
 .subnav-mobile {
     display: none;
 }
 
 .subnav-mobile li {
     list-style: none;
-    padding-left: 30px;
+    padding: 10px 30px;
     font-size: 18px;
+    
 }
 
 .subnav-mobile li a {
@@ -341,6 +247,28 @@ a.nav__mobile-link {
     color: black;
 }
 
-.hover-browse:hover ~ .subnav-mobile {
+
+.subnav-mobile li:hover a {
+    text-decoration: underline;
+    color: #5a473a;
+}
+
+/* .hover-browse:hover ~ .subnav-mobile {
     display: block;
+} */
+
+.check-subnav:checked ~ .subnav-mobile {
+    display: block;
+}
+
+#subnav-mobile-check {
+    position: absolute;
+    top: 320px;
+    left: 100px;
+    display: none;
+}
+
+.hover-browse {
+    padding: 20px;
+    list-style: none;
 }
