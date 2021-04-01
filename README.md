@@ -19,4 +19,3 @@ Dao Kha Tuan:
 Nguyen Trong Minh Long:
 
 ## References
-[MIT](https://choosealicense.com/licenses/mit/)
