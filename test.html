@@ -6,13 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        input:checked ~ h1 {
+        /* input:checked ~ h1 {
             color: red;
+        } */
+
+        h1 {
+            padding-bottom: 15px;
+            border-bottom: 0px solid black;
+            transition: border-bottom 1s ease;
+            width: 70px;
+        }
+
+        h1:hover {
+            border-bottom: 4px solid black;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-<input type="checkbox" name="" id="">
-<h1>hello</h1>
+<!-- <input type="checkbox" name="" id="">
+<h1>hello</h1> -->
+<h1>Hello</h1>
 </body>
 </html>

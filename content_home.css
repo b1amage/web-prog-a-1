@@ -12,7 +12,8 @@ html {
 }
 
 main {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .store-container,
@@ -57,7 +58,8 @@ h3:hover a {
     border-bottom: 2px solid black;
 }
 
-.title h1 {
+.title h1,
+.title-2 h1 {
     text-align: center;
     width: 100%;
 }
@@ -92,4 +94,34 @@ h3:hover a {
 
 .ti-location-pin {
     font-size: 14px;
+}
+
+@media only screen and (max-width: 1133px) {
+    .title-2 {
+        margin-top: 320px
+    }
+
+    .product-container {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 677px) {
+    .title-2 {
+        margin-top: 650px
+    }
+
+    .product-container {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 453px) {
+    .title-2 {
+        margin-top: 1270px
+    }
+
+    .product-container {
+        margin-top: 0px;
+    }
 }
