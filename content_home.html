@@ -6,9 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="./content_home.css">
+    <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./footer.css">
 </head>
 <body>
+    <header>
+        <main>
+            <nav class="first-nav">
+                <h1 class="logo"><a href="#">SNEAKIUM</a></h1>
+                <!-- Nav PC -->
+                <nav class="nav__pc">
+                    <ul class="nav__list">
+                        <li><a href="#" class="nav__link push">Home</a></li>
+                        <li><a href="#" class="nav__link">About us</a></li>
+                        <li><a href="#" class="nav__link">Fees</a></li>
+                        <li><a href="#" class="nav__link">My account</a></li>
+                        <li>
+                            <a href="#" class="nav__link">Browse<i class="ti-angle-double-down"></i></a>
+                            <ul class="subnav">
+                                <li><a href="#">Store by name</a></li>
+                                <li><a href="#">Store by category</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="nav__link">FAQs</a></li>
+                        <li><a href="#" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- Nav responsive -->
+                <label for="nav-mobile-input" class="nav__bars-btn">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+                </label>
+                
+                <input type="checkbox" hidden name="" id="nav-mobile-input" class="nav__input">
+                
+    
+                <label for="nav-mobile-input" class="nav__overlay">
+    
+                </label>
+    
+                <nav class="nav__mobile">
+                    <label for="nav-mobile-input" class="nav__mobile-close">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                    </label>
+                    <ul class="nav__mobile-list">
+                        <li><a href="#" class="nav__mobile-link">Home</a></li>
+                        <li><a href="#" class="nav__mobile-link">About us</a></li>
+                        <li><a href="#" class="nav__mobile-link">Fees</a></li>
+                        <li><a href="#" class="nav__mobile-link">My account</a></li>
+                        
+                        <li>
+                            <label for="subnav-mobile-check" class="nav__mobile-link hover-browse">Browse<i class="ti-angle-double-down"></i></label>
+                            <input type="checkbox" id="subnav-mobile-check" class="check-subnav">
+                                <ul class="subnav-mobile">
+                                    <li><a href="#">By name</a></li>
+                                    <li><a href="#">By category</a></li>
+                                </ul>
+                        </li>
+              
+                        <li><a href="#" class="nav__mobile-link">FAQs</a></li>
+                        <li><a href="#" class="nav__mobile-link">Contact</a></li>
+                    </ul>
+                </nav>
+                
+            </nav>
+        </main>
+    </header>
     <main>
         <!-- New Store -->
         <div class="title">
@@ -19,7 +82,7 @@
                 <div class="overlay">
                     <i class="ti-location-pin"></i><p>235 Dong Khoi, District 1</p>
                 </div>
-                <a href="#" target="_blank"><img src="./nike.jpeg" alt="nike-logo" width="200" height="200"></a>
+                <a href="#" target="_blank"><img src="./content-img/nike.jpeg" alt="nike-logo" width="200" height="200"></a>
                 <h3><a href="#">Nike</a></h3>
             </div>
 
@@ -27,7 +90,7 @@
                 <div class="overlay">
                     <i class="ti-location-pin"></i><p>65 Le Loi, District 1</p>
                 </div>
-                <a href="#" target="_blank"><img src="./addidas.jpeg" alt="addidas-logo" width="200" height="200"></a>
+                <a href="#" target="_blank"><img src="./content-img/addidas.jpeg" alt="addidas-logo" width="200" height="200"></a>
                 <h3><a href="#">Addidas</a></h3>
             </div>
 
@@ -35,7 +98,7 @@
                 <div class="overlay">
                     <i class="ti-location-pin"></i><p>78 Nguyen Trai, District 1</p>
                 </div>
-                <a href="#" target="_blank"><img src="./vans.jpeg" alt="vans-logo" width="200" height="200"></a>
+                <a href="#" target="_blank"><img src="./content-img/vans.jpeg" alt="vans-logo" width="200" height="200"></a>
                 <h3><a href="#">Vans</a></h3>
             </div>
 
@@ -43,7 +106,7 @@
                 <div class="overlay">
                     <i class="ti-location-pin"></i><p>11 Su Van Hanh, District 10</p>
                 </div>
-                <a href="#" target="_blank"><img src="./converse.jpeg" alt="converse-logo" width="200" height="200"></a>
+                <a href="#" target="_blank"><img src="./content-img/converse.jpeg" alt="converse-logo" width="200" height="200"></a>
                 <h3><a href="#">Converse</a></h3>
             </div>
 
@@ -51,7 +114,7 @@
                 <div class="overlay">
                     <i class="ti-location-pin"></i><p>101 Ton Dat Tien, District 7</p>
                 </div>
-                <a href="#" target="_blank"><img src="./puma.jpeg" alt="Puma-logo" width="200" height="200"></a>
+                <a href="#" target="_blank"><img src="./content-img/puma.jpeg" alt="Puma-logo" width="200" height="200"></a>
                 <h3><a href="#">Puma</a></h3>
             </div>
         </div>
@@ -64,7 +127,7 @@
                 <div class="overlay">
                     <p>2000$</p>
                 </div>
-                <a href="#" target="_blank"><img src="./jd1.jpg" alt="nike-logo" width="200" height="200"></a>
+                <a href="#" target="_blank"><img src="./content-img/jd1.jpg" alt="nike-logo" width="200" height="200"></a>
                 <h3><a href="#">Nike Jordan 1 Dior</a></h3>
             </div>
 
@@ -72,7 +135,7 @@
                 <div class="overlay">
                     <p>250$</p>
                 </div>
-                <a href="#" target="_blank"><img src="./ultraboost.jpg" alt="addidas-logo" width="200" height="200"></a>
+                <a href="#" target="_blank"><img src="./content-img/ultraboost.jpg" alt="addidas-logo" width="200" height="200"></a>
                 <h3><a href="#">Ultra Boost 5.0</a></h3>
             </div>
 
@@ -80,7 +143,7 @@
                 <div class="overlay">
                     <p>80$</p>
                 </div>
-                <a href="#" target="_blank"><img src="./vans-img.jpg" alt="vans-logo" width="200" height="200"></a>
+                <a href="#" target="_blank"><img src="./content-img/vans-img.jpg" alt="vans-logo" width="200" height="200"></a>
                 <h3><a href="#">Vans Old Skool</a></h3>
             </div>
 
@@ -88,7 +151,7 @@
                 <div class="overlay">
                     <p>75$</p>
                 </div>
-                <a href="#" target="_blank"><img src="./converse-img.jpg" alt="converse-logo" width="200" height="200"></a>
+                <a href="#" target="_blank"><img src="./content-img/converse-img.jpg" alt="converse-logo" width="200" height="200"></a>
                 <h3><a href="#">Converse All Star</a></h3>
             </div>
 
@@ -96,7 +159,7 @@
                 <div class="overlay">
                     <p>120$</p>
                 </div>
-                <a href="#" target="_blank"><img src="./puma.jpg" alt="Puma-logo" width="200" height="200"></a>
+                <a href="#" target="_blank"><img src="./content-img/puma.jpg" alt="Puma-logo" width="200" height="200"></a>
                 <h3><a href="#">Puma Puzzel</a></h3>
             </div>
         </div>
@@ -105,47 +168,104 @@
         <div class="title-2">
             <h1>Featured Stores</h1>
         </div>
-        <div class="product-container">
-            <div class="product">
+        <div class="feature-container">
+            <div class="feature">
                 <div class="overlay">
-                    <p>2000$</p>
+                    <i class="ti-location-pin"></i><p>15 Tran Hung Dao, District 1</p>
                 </div>
-                <a href="#" target="_blank"><img src="./G _ LAB.jpg" alt="nike-logo" width="200" height="200"></a>
+                <a href="#" target="_blank"><img src="./content-img/G _ LAB.jpg" alt="glab-logo" width="200" height="200"></a>
                 <h3><a href="#">GLAB</a></h3>
             </div>
 
-            <div class="product">
+            <div class="feature">
                 <div class="overlay">
-                    <p>250$</p>
+                    <i class="ti-location-pin"></i><p>3 Nguyen Trai, District 1</p>
                 </div>
-                <a href="#" target="_blank"><img src="./Kickgeeks.jpg" alt="addidas-logo" width="200" height="200"></a>
+                <a href="#" target="_blank"><img src="./content-img/Kickgeeks.jpg" alt="kickgeeks-logo" width="200" height="200"></a>
                 <h3><a href="#">Kick Geeks</a></h3>
             </div>
 
-            <div class="product">
+            <div class="feature">
                 <div class="overlay">
-                    <p>Sendou</p>
+                    <i class="ti-location-pin"></i><p>24 Nguyen Khoai, District 4</p>
                 </div>
-                <a href="#" target="_blank"><img src="./sendou.jpg" alt="vans-logo" width="200" height="200"></a>
+                <a href="#" target="_blank"><img src="./content-img/sendou.jpg" alt="sendou-logo" width="200" height="200"></a>
                 <h3><a href="#">Sendou</a></h3>
             </div>
 
-            <div class="product">
+            <div class="feature">
                 <div class="overlay">
-                    <p>75$</p>
+                    <i class="ti-location-pin"></i><p>77 Da Nam, District 8</p>
                 </div>
-                <a href="#" target="_blank"><img src="./the_mix.jpg" alt="converse-logo" width="200" height="200"></a>
+                <a href="#" target="_blank"><img src="./content-img/the_mix.jpg" alt="themix-logo" width="200" height="200"></a>
                 <h3><a href="#">The Mix</a></h3>
             </div>
 
-            <div class="product">
+            <div class="feature">
                 <div class="overlay">
-                    <p>120$</p>
+                    <i class="ti-location-pin"></i><p>2 Su Van Hanh, District 10</p>
                 </div>
-                <a href="#" target="_blank"><img src="./kick_iconic.jpg" alt="Puma-logo" width="200" height="200"></a>
+                <a href="#" target="_blank"><img src="./content-img/kick_iconic.jpg" alt="kickiconic-logo" width="200" height="200"></a>
                 <h3><a href="#">Kick Iconic</a></h3>
             </div>
         </div>
+
+        <!-- Featured Product -->
+        <div class="title-2">
+            <h1>Featured Stores</h1>
+        </div>
+        <div class="feature-container">
+            <div class="feature">
+                <div class="overlay">
+                    <p>220$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./content-img/lebron18.jpg" alt="lebron18-img" width="200" height="200"></a>
+                <h3 class="underline"><a href="#">Nike Lebron 18</a></h3>
+            </div>
+
+            <div class="feature">
+                <div class="overlay">
+                    <p>130$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./content-img/freak2.jpg" alt="freak2-img" width="200" height="200"></a>
+                <h3><a href="#">Nike Freak 2</a></h3>
+            </div>
+
+            <div class="feature">
+                <div class="overlay">
+                    <p>90$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./content-img/stansmith.jpg" alt="stansmith-img" width="200" height="200"></a>
+                <h3><a href="#">Stan Smith</a></h3>
+            </div>
+
+            <div class="feature">
+                <div class="overlay">
+                    <p>210$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./content-img/airmax97.jpg" alt="airmax97-img" width="200" height="200"></a>
+                <h3><a href="#">Nike Airmax 97</a></h3>
+            </div>
+
+            <div class="feature">
+                <div class="overlay">
+                    <p>130$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./content-img/joyride.jpg" alt="joyride-img" width="200" height="200"></a>
+                <h3><a href="#">Nike Joyride</a></h3>
+            </div>
+        </div>
     </main>
+    <footer>
+        <nav>
+            <h3 class="left">All Rights Reserved. © 2021 Sneakium.</h3>
+            <ul>
+                <li><a href="#">Copyright</a></li>
+                <li><a href="#">ToS</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <h3 class="right">Design by developer team</h3>
+        </nav>
+    </footer>
 </body>
 </html>
