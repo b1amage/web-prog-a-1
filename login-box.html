@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Account</title>
     <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./login-box.css">
     <link rel="stylesheet" href="./footer.css">
 </head>
@@ -13,6 +14,8 @@
 <body>
     <header>
         <main>
+            <!-- Link to background image -->
+            <!-- https://hnbmg.com/xep-hang-cac-phien-ban-air-jordan-1-thong-qua-background-story-37904.html -->
             <img src="login-image/jordan1-background.jpeg" alt="background-image">
             <nav class="first-nav">
                 <h1 class="logo"><a href="#">SNEAKIUM</a></h1>
@@ -24,7 +27,7 @@
                         <li><a href="#" class="nav__link">Fees</a></li>
                         <li><a href="#" class="nav__link">My account</a></li>
                         <li>
-                            <a href="#" class="nav__link">Browse</a>
+                            <a href="#" class="nav__link">Browse<i class="ti-angle-double-down"></i></a>
                             <ul class="subnav">
                                 <li><a href="#">Store by name</a></li>
                                 <li><a href="#">Store by category</a></li>
@@ -57,7 +60,7 @@
                         <li><a href="#" class="nav__mobile-link">My account</a></li>
                         
                         <li>
-                            <label for="subnav-mobile-check" class="nav__mobile-link hover-browse">Browse</label>
+                            <label for="subnav-mobile-check" class="nav__mobile-link hover-browse">Browse<i class="ti-angle-double-down"></i></label>
                             <input type="checkbox" id="subnav-mobile-check" class="check-subnav">
                                 <ul class="subnav-mobile">
                                     <li><a href="#">By name</a></li>
@@ -73,8 +76,7 @@
             </nav>
         </main>
     </header>
-    <!-- Link to background image -->
-    <!-- https://hnbmg.com/xep-hang-cac-phien-ban-air-jordan-1-thong-qua-background-story-37904.html -->
+   
     <div class="login-box">
         <form action="#" method="get">
           <input required type="text" name="text" autocomplete="off" placeholder="Email or phone number">  
@@ -90,7 +92,8 @@
             <button href="#" name="button-register" >Register</button>
           </div>
         </form>
-      </div>
+    </div>
+
     <footer>
         <nav>
             <h3 class="left">All Rights Reserved. © 2021 Sneakium.</h3>
