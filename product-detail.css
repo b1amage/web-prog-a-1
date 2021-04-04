@@ -301,4 +301,8 @@ button:hover a {
     .product-2 {
         grid-row: 8 / span 1;
     }
+
+    .related {
+        font-size: 20px;
+    }
 }
