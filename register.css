@@ -1,0 +1,103 @@
+/* Import the font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+form {
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    height: 70%;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(80, 79, 79);
+    padding: 1% 5%;
+    background-color: #91725e;
+}
+
+form h1 {
+    text-align: center;
+}
+
+#line {
+    display: flex;
+    justify-content: center;
+    margin: 1% 0;
+}
+
+form hr {
+    width: 90%;
+}
+
+#info {
+    display: grid;
+    margin-left: 10%;
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 15px;
+}
+
+.email {
+    grid-area: 1 / 1 / span 1;
+}
+
+.phone {
+    grid-area: 1 / 2 / span 1;
+}
+
+.address {
+    grid-area: 4 / 1 / span 1 / span 2;
+}
+
+input:not([type=file]) {
+    position: relative;
+    padding-left: 5px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    outline: none;
+}
+
+/* Hide spin button on Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide spin button on Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.profile-picture label {
+    font-family: 'Poppins';
+}
+
+input:not([type=submit]):focus {
+    border-color: rgba(107, 141, 250, 0.849);
+    box-shadow: 0 0 10px rgba(92, 129, 250, 0.849);
+}
+
+input[type=submit] {
+    color: white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    background-color: #1877f2;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #1876f2e0;
+}

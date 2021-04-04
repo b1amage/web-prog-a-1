@@ -7,16 +7,13 @@
     <title>My Account</title>
     <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./themify-icons/themify-icons.css">
-    <link rel="stylesheet" href="./forgot-password.css">
+    <link rel="stylesheet" href="./register.css">
     <link rel="stylesheet" href="./footer.css">
 </head>
 
 <body>
     <header>
         <main>
-            <!-- Link to background image -->
-            <!-- https://hnbmg.com/xep-hang-cac-phien-ban-air-jordan-1-thong-qua-background-story-37904.html -->
-            <img src="login-image/jordan1-background.jpeg" alt="background-image">
             <nav class="first-nav">
                 <h1 class="logo"><a href="#">SNEAKIUM</a></h1>
                 <!-- Nav PC -->
@@ -76,14 +73,44 @@
             </nav>
         </main>
     </header>
-
     <div class="login-box">
-        <form action="#" method="get">
-          <h1>Find your account</h1>
-          <hr>
-          <h3>Please enter your email to search for your account</h3>
-          <input required type="email" name="email" autocomplete="off" placeholder="Enter your email">  
-          <input type="submit" name="button-submit" value="Send">
+        <form action="#" method="get" autocomplete="off">
+            <h1>Register</h1>
+            <div id="line">
+                <hr>
+            </div>
+            <div id="info">
+                <div class="email">
+                    <input id="email" required type="email" name="email" placeholder="Email">  
+                </div>
+                <div class="phone">
+                    <input id="phone" required type="number" name="phone" placeholder="Phone number">  
+                </div>
+                <div class="password">
+                    <input id="password" required type="password" name="password" placeholder="Your password">
+                </div>
+                <div class="re-password">
+                    <input id="re-password" required type="password" name="re-password" placeholder="Re - enter your password">
+                </div>
+                <div class="first-name">
+                    <input id="first-name" required type="text" name="first-name" placeholder="First name">
+                </div>
+                <div class="last-name">
+                    <input id="last-name" required type="text" name="last-name" placeholder="Last name">
+                </div>
+                <div class="address">
+                    <input id="address" required type="text" name="address" placeholder="Address">
+                </div>
+                <div class="city">
+                    <input id="city" required type="text" name="city" placeholder="City">
+                </div>
+                <div class="zipcode">
+                    <input id="zipcode" required type="number" name="zipcode" minlength="4" maxlength="6" placeholder="Zipcode">
+                </div>
+                <div class="profile-picture">
+                    <input id="profile-picture" required type="file" name="profile-picture" placeholder="Profile picture">
+                </div>
+            </div>
         </form>
     </div>
     
@@ -99,6 +126,5 @@
         </nav>
     </footer>
     </body>
-
 
     
