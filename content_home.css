@@ -148,10 +148,10 @@ h3 a {
     width: 0;
     bottom: -5px;
     background: #000;
-    height: 4px;
+    height: 3px;
     transition-property: width;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-out;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
   }
   .underline:hover:after,
   .underline:focus:after,

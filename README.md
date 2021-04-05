@@ -27,3 +27,6 @@ We have responsive on almost device.
 However, this website is best on PC, Ipad Pro, and IphoneX
 
 ## References
+1. Underline effect
+https://jsfiddle.net/1gyksyoa/
+
