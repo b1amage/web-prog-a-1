@@ -21,4 +21,9 @@ Dao Kha Tuan:
 
 Nguyen Trong Minh Long:
 
+
+## Responsive
+We have responsive on almost device. 
+However, this website is best on PC, Ipad Pro, and IphoneX
+
 ## References
