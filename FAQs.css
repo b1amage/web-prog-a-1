@@ -73,12 +73,12 @@ details summary:hover{
         margin-top: 5px;
     }
     details summary{
-        font-size:15;
+        font-size:14px;
     }
     details p{
-        font-size: 15px;
+        font-size: 13px;
         margin-top: 6px;
-        line-height: 25px;
+        line-height: 23px;
     }
     
 }
