@@ -11,6 +11,7 @@ h1.title{
    font-size: 45px;
    font-family: 'Poppins', sans-serif;
    color:white;
+   margin-top: 70px;
 
 }
 *{
@@ -19,6 +20,7 @@ h1.title{
 body{
     width: 100%;
     font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 75px;
 }
 input[type="text"], input[type="email"], input[type="tel"]{
     width: 100%;
