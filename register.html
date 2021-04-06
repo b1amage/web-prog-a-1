@@ -112,9 +112,8 @@
                     <input id="profile-picture" required type="file" name="profile-picture" placeholder="Profile picture">
                 </div>
                 <div class="country">
-                    <!-- <label for="country">Country: </label> -->
                     <select id="country" name="country">
-                        <option value="">Select a country</option>
+                        <option value="" selected disabled hidden>Select a country</option>
                         <option value="AF">Afghanistan</option>
                         <option value="AL">Albania</option>
                         <option value="DZ">Algeria</option>
@@ -182,6 +181,7 @@
                 <div class="store-category">
                     <label for="store-category">Store category</label>
                     <select id="store-category" name="store-category">
+                    <option value="" selected disabled hidden>Select a store category</option>    
                     <option value="department-stores">Department stores</option>
                     <option value="grocery-stores">Grocery stores</option>
                     <option value="restaurants">Restaurants</option>

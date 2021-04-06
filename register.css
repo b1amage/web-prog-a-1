@@ -56,7 +56,7 @@ form hr {
     display: grid;
     margin-left: 10%;
     width: 80%;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(6, 1fr);
     grid-gap: 5px;
 }
@@ -93,11 +93,11 @@ input[type=number] {
 }
 
 .email {
-    grid-area: 1 / 1 / span 1;
+    grid-area: 1 / 1 / span 1 / span 1;
 }
 
 .phone {
-    grid-area: 1 / 2 / span 1;
+    grid-area: 1 / 2 / span 1 / span 1;
 }
 
 .address {
@@ -125,6 +125,10 @@ input[type=number] {
     width: 70%;
 }
 
+input[type=file]:focus {
+    outline: none;
+}
+
 .country {
     background-color:transparent;
     height: 50px;
@@ -145,7 +149,12 @@ input[type=number] {
     border-radius: 3px;
     width: 100%;
     height: 100%;
+    padding-left: 5px;
     border-radius: 6px;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    -webkit-appearance: none;    
 }
 
 .country select:focus {
@@ -153,13 +162,10 @@ input[type=number] {
 }
 
 #country * {
-    background-color: none;
     border: none;
-    z-index: 0;
 }
 
 input:not([type=file], [type=radio]) {
-    position: relative;
     padding-left: 5px;
     width: 100%;
     height: 40px;
@@ -170,9 +176,26 @@ input:not([type=file], [type=radio]) {
     outline: none;
 }
 
-input:not([type=submit], [type=reset]):focus {
+input:not([type=submit], [type=reset], [type=file]):focus {
     border-color: rgba(107, 141, 250, 0.849);
     box-shadow: 0 0 10px rgba(92, 129, 250, 0.849);
+}
+
+.center {
+    text-align: center;
+    margin: 5px 0;
+}
+
+input[value=shopper] {
+    margin-left: 40%;
+}
+
+input[value=store-owner] {
+    margin-left: 2.5%;
+}
+
+label[for=shopper], label[for=store-owner] {
+    margin: 0 5px;
 }
 
 .hidden {
@@ -188,23 +211,6 @@ input[value=store-owner]:checked ~ .hidden {
     grid-gap: 5px
 }
 
-.center {
-    text-align: center;
-    margin: 5px 0;
-}
-
-input[value=shopper] {
-    margin-left: 41%;
-}
-
-input[value=store-owner] {
-    margin-left: 2.5%;
-}
-
-label[for=shopper], label[for=store-owner] {
-    margin: 0 5px;
-}
-
 .store-category {
     grid-area: 2 / 1 / span 1 / span 2;
     display: flex;
@@ -213,12 +219,19 @@ label[for=shopper], label[for=store-owner] {
 }
 
 .store-category label {
-    margin: 0 10px;
+    right: 0;
+    margin: 0 36px;
 }
 
 .store-category select {
+    padding: 2px;
     outline: none;
     border: 2px solid black;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    -webkit-appearance: none;
+    font-size: 15px;
 }
 
 .buttons {
@@ -246,4 +259,79 @@ input[type=submit], input[type=reset] {
 input[type=submit]:hover , input[type=reset]:hover {
     cursor: pointer;
     background-color: rgba(38, 38, 39, 0.37);
+}
+
+/* Responsive */
+@media only screen and (max-width: 1100px) {
+    form {
+        top: 25% !important;
+        left: 5% !important;
+        height: 50% !important;
+        width: 90% !important;
+    }
+
+    .profile-picture label {
+        width: 65% !important;
+    }
+
+    input[value=shopper] {
+        margin-left: 37.5% !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    form {
+        top: 20% !important;
+        left: 0.5% !important;
+        width: 99% !important;
+        height: 60% !important;
+    }
+
+    #info {
+        margin-left: 2.5% !important;
+        width: 95% !important;
+    }
+
+    .profile-picture label {
+        width: 70% !important;
+    }
+
+
+    input[value=shopper] {
+        margin-left: 34.5% !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .email {
+        grid-area: 1 / 1 / span 1 / span 2 !important;
+    }
+
+    .phone {
+        grid-area: 2 / 1 / span 1 / span 2 !important;
+    }
+
+    .password {
+        grid-area: 3 / 1 / span 1 / span 2 !important;
+    }
+
+    .re-password {
+        grid-area: 4 / 1 / span 1 / span 2 !important;
+    }
+
+    .address {
+        grid-area: 5 / 1 / span 1 / span 2 !important;
+    }
+
+    label, ::placeholder, input {
+        font-size: 12px;
+    }
+
+    form {
+        height: 70% !important;
+    }
+
+    input[value=shopper] {
+        margin-left: 31.5% !important;
+    }
 }
