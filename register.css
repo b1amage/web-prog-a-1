@@ -4,22 +4,40 @@
 body {
     width: 100%;
     height: 100%;
-    background-color: white;
+    background-color: #f6f6f6;
 }
 
 form {
     position: fixed;
-    top: 20%;
+    top: 17.5%;
     left: 10%;
     height: 70%;
     width: 80%;
     border: 1px solid black;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgb(80, 79, 79);
-    padding: 1% 5%;
-    background-color: #91725e;
+    box-shadow: 1px 2px 3px rgb(80, 79, 79);
+    padding: 0% 5%;
+    background-color: rgb(241, 236, 228);
+    overflow-y: auto;
 }
 
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 2.5px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+  
 form h1 {
     text-align: center;
 }
@@ -40,7 +58,38 @@ form hr {
     width: 80%;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-gap: 15px;
+    grid-gap: 5px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Edge */
+::-webkit-input-placeholder { 
+    font-family: 'Poppins';
+    color: black;
+}
+
+/* Internet Explorer 10-11 */  
+:-ms-input-placeholder { 
+    font-family: 'Poppins';
+    color: black;
+    font-weight: 300;
+}
+  
+::placeholder {
+    font-family: 'Poppins';
+    color: black;
+    font-weight: 300;
 }
 
 .email {
@@ -55,7 +104,61 @@ form hr {
     grid-area: 4 / 1 / span 1 / span 2;
 }
 
-input:not([type=file]) {
+.account {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.profile-picture {
+    background-color: white;
+    padding-left: 5px;
+    height: 50px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture label {
+    font-family: 'Poppins';
+    display: block;
+    width: 70%;
+}
+
+.country {
+    background-color:transparent;
+    height: 50px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.country label {
+    font-family: 'Poppins';
+}
+
+.country select {
+    background-color: white;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.country select:focus {
+    box-shadow: none;
+}
+
+#country * {
+    background-color: none;
+    border: none;
+    z-index: 0;
+}
+
+input:not([type=file], [type=radio]) {
     position: relative;
     padding-left: 5px;
     width: 100%;
@@ -67,37 +170,80 @@ input:not([type=file]) {
     outline: none;
 }
 
-/* Hide spin button on Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Hide spin button on Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
-}
-
-.profile-picture label {
-    font-family: 'Poppins';
-}
-
-input:not([type=submit]):focus {
+input:not([type=submit], [type=reset]):focus {
     border-color: rgba(107, 141, 250, 0.849);
     box-shadow: 0 0 10px rgba(92, 129, 250, 0.849);
 }
 
-input[type=submit] {
-    color: white;
-    font-family: 'Poppins';
-    font-weight: bold;
-    font-size: 20px;
-    letter-spacing: 0.5px;
-    background-color: #1877f2;
+.hidden {
+    display: none;
 }
 
-input[type=submit]:hover {
+input[value=store-owner]:checked ~ .hidden {
+    display: grid;
+    margin: 5px 10%;
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 5px
+}
+
+.center {
+    text-align: center;
+    margin: 5px 0;
+}
+
+input[value=shopper] {
+    margin-left: 41%;
+}
+
+input[value=store-owner] {
+    margin-left: 2.5%;
+}
+
+label[for=shopper], label[for=store-owner] {
+    margin: 0 5px;
+}
+
+.store-category {
+    grid-area: 2 / 1 / span 1 / span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.store-category label {
+    margin: 0 10px;
+}
+
+.store-category select {
+    outline: none;
+    border: 2px solid black;
+}
+
+.buttons {
+    display: flex;
+    margin: 12.5px 10%;
+    width: 80%;
+    justify-content: center;
+}
+
+input[type=submit], input[type=reset] {
+    color: white;
+    font-family: 'Poppins';
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    background-color: rgb(38, 38, 39);
+    width: 25%;
+    display: inline-flex;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    transition: all 0.15s linear;
+    margin: 0 5px;
+}
+
+input[type=submit]:hover , input[type=reset]:hover {
     cursor: pointer;
-    background-color: #1876f2e0;
+    background-color: rgba(38, 38, 39, 0.37);
 }
