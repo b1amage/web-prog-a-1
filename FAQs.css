@@ -28,7 +28,7 @@ details{
     padding: 15px;
     border-radius: 7px;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 24px;
 }
 details summary{
     outline: none;
@@ -38,7 +38,8 @@ details summary{
 details p{
     font-family: 'Ubuntu', sans-serif;
     font-style: italic;
-    font-size: 16px;
+    font-size: 20px;
+    margin-top: 10px;
 }
 details summary:hover{
     cursor: pointer;
