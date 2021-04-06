@@ -44,3 +44,38 @@ details p{
 details summary:hover{
     cursor: pointer;
 }
+@media screen and (max-width:1024px){
+    .box{
+        width:85%;
+    }
+    details{
+        padding:10px;
+    }
+    details summary{
+        font-size: 20px;
+    }
+    details p{
+        font-size: 16px;
+    }
+    
+}
+@media screen and (max-width:769px) {
+    .box{
+        width:95%;
+    }
+    .box .title{
+        font-size: 27px;
+    }
+    details{
+        padding:6px;
+        margin-top: 5px;
+    }
+    details summary{
+        font-size:15;
+    }
+    details p{
+        font-size: 15px;
+        margin-top: 4px;
+    }
+    
+}
