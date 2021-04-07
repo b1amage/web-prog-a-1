@@ -206,7 +206,7 @@ input[value=store-owner]:checked ~ .hidden {
     display: grid;
     margin: 5px 10%;
     width: 80%;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 5px
 }
@@ -332,6 +332,64 @@ input[type=submit]:hover , input[type=reset]:hover {
     }
 
     input[value=shopper] {
-        margin-left: 31.5% !important;
+        margin-left: 27.5% !important;
+    }
+
+    .profile-picture {
+        grid-area: 8 / 1 / span 1 / span 2 !important;
+    }
+
+    .country {
+        grid-area: 9 / 1 / span 1 / span 2 !important;
+    }
+
+    input[value=store-owner]:checked ~ .hidden {
+        margin: 5px 2.5%;
+        width: 95%;
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .store-category label {
+        font-size: 17.5px;
+        margin-left: 3px;
+    }
+
+    input[type=submit], input[type=reset] {
+        display: block;
+        padding-left: 0.5px;
+    }    
+}
+
+@media only screen and (max-width: 400px) {
+    input[value=shopper] {
+        margin-left: 25.25% !important;
+    }
+
+    input[type=submit], input[type=reset] {
+        display: block;
+        padding-left: 1px;
+    }    
+}
+
+@media only screen and (max-width: 350px) {
+    input[value=shopper] {
+        margin-left: 22.5% !important;
+    }
+
+    .store-category label {
+        font-size: 15px;
+        margin-left: 10px !important;
+    }
+
+    input[type=submit], input[type=reset] {
+        display: block;
+        width: 70px !important;
+    } 
+}
+
+@media only screen and (max-width: 365px) {
+    .store-category label {
+        font-size: 14px;
+        margin-left: 12.5px !important;
     }
 }
