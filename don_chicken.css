@@ -139,8 +139,9 @@ body main {
 
 @media only screen and (max-width: 1156px) {
     .pd1, 
-    .pd2 {
-        margin-bottom: 300px;
+    .pd2,
+    .pd3 {
+        margin-bottom: 350px;
     }
 
     .header {
@@ -151,14 +152,16 @@ body main {
 
 @media only screen and (max-width: 702px) {
     .pd1, 
-    .pd2 {
-        margin-bottom: 600px;
+    .pd2,
+    .pd3 {
+        margin-bottom: 650px;
     }
 }
 
 @media only screen and (max-width: 476px) {
     .pd1, 
-    .pd2 {
-        margin-bottom: 1200px;
+    .pd2,
+    .pd3 {
+        margin-bottom: 1250px;
     }
 }
