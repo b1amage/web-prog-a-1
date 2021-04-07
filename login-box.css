@@ -13,9 +13,9 @@ form {
     height: 52.5%;
     border: 1px solid black;
     border-radius: 8px;
-    box-shadow: 1px 2px 3px black;
+    box-shadow: 5px 5px 10px black;
     padding: 1% 0;
-    background-color: #c7bdb1;
+    background-color: rgb(241, 236, 228);
 }
 
 input {
@@ -42,12 +42,12 @@ input[type=submit] {
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 0.5px;
-    background-color: #1877f2;
+    background-color: rgb(38, 38, 39);
 }
 
 input[type=submit]:hover {
     cursor: pointer;
-    background-color: #1876f271;
+    background-color: rgba(38, 38, 39, 0.685);
 }
 
 #forgot-password {
@@ -58,7 +58,7 @@ input[type=submit]:hover {
 
 #forgot-password a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: 'Poppins';
 }
 
@@ -95,14 +95,14 @@ hr {
     vertical-align: center;
     padding: 10px 0;
     letter-spacing: 0.5px;
-    background-color: rgb(5, 209, 5);
+    background-color: rgb(38, 38, 39);
     border: none;
     border-radius: 6px;
 }
 
 #register a:hover {
     cursor: pointer;
-    background-color: rgba(5, 209, 5, 0.473);
+    background-color: rgba(38, 38, 39, 0.685);
 }
 
 /* Responsive */
