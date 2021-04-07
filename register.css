@@ -302,7 +302,7 @@ input[type=submit]:hover , input[type=reset]:hover {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
     .email {
         grid-area: 1 / 1 / span 1 / span 2 !important;
     }
@@ -360,6 +360,12 @@ input[type=submit]:hover , input[type=reset]:hover {
     }    
 }
 
+@media only screen and (min-height: 600px) and (max-height: 730px) {
+    input[value=shopper] {
+        margin-left: 32.5% !important;
+    }
+}
+
 @media only screen and (max-width: 400px) {
     input[value=shopper] {
         margin-left: 25.25% !important;
@@ -367,7 +373,7 @@ input[type=submit]:hover , input[type=reset]:hover {
 
     input[type=submit], input[type=reset] {
         display: block;
-        padding-left: 1px;
+        padding-left: 2px;
     }    
 }
 
@@ -391,5 +397,11 @@ input[type=submit]:hover , input[type=reset]:hover {
     .store-category label {
         font-size: 14px;
         margin-left: 12.5px !important;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    input[value=shopper] {
+        margin-left: 17.5% !important;
     }
 }
