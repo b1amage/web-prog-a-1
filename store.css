@@ -188,11 +188,7 @@ a.nav__mobile-link {
     }
 }
 
-@media only screen and (max-width: 500px) {
-    .logo a {
-        font-size: 30px;
-    }
-}
+
 
 footer {
     display: block;
@@ -251,6 +247,17 @@ footer .right {
     right: 20px;
 }
 
+.ft2 {
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 1130px) {
+    .ft2 {
+        margin-bottom: 400px;
+    }
+}
+
+
 @media only screen and (max-width: 1023px) {
     footer .left,
     footer .right {
@@ -258,9 +265,25 @@ footer .right {
     }
 }
 
+@media only screen and (max-width: 678px) {
+    .ft2 {
+        margin-bottom: 700px;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     footer nav ul li a {
         padding: 10px 15px;
+    }
+
+    .logo a {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 447px) {
+    .ft2 {
+        margin-bottom: 1300px;
     }
 }
 
@@ -270,6 +293,7 @@ footer .right {
         font-size: 12px;
     }
 }
+
 
 
 
