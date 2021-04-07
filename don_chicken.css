@@ -83,10 +83,6 @@ body main {
     margin-top: 60px;
 }
 
-.header {
-    display: block;
-}
-
 #details {
     display: none;
 }
@@ -124,17 +120,20 @@ body main {
     display: flex;
 }
 
-.header {
-    text-align: center;
+.category {
     font-weight: bold;
-    font-size: 40px;
-    margin: 100px 0px;
-    border: 5px solid black;
+    font-size: 50px;
+    margin: 100px 20px;
+    display: block;
 }
 
-.header:hover {
+.category:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.ti-angle-double-down {
+    font-size: 80px;
 }
 
 @media only screen and (max-width: 1156px) {
@@ -144,9 +143,8 @@ body main {
         margin-bottom: 350px;
     }
 
-    .header {
+    .category {
         font-size: 24px;
-        border: 1px solid black;
     }
 }
 

@@ -7,6 +7,8 @@
     <title>Store</title>'
     <link rel="stylesheet" href="./store.css">
     <link rel="stylesheet" href="./content_home.css">
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+    <!-- <link rel="stylesheet" href="./header.css"> -->
 </head>
 <body>
     <header>
@@ -18,6 +20,13 @@
                     <ul class="nav__list">
                         <li><a href="#" class="nav__link push">Home</a></li>
                         <li><a href="#" class="nav__link">About us</a></li>
+                        <li>
+                            <a href="#" class="nav__link">Product<i class="ti-angle-double-down"></i></a>
+                            <ul class="subnav">
+                                <li><a href="#">By name</a></li>
+                                <li><a href="#">By created time</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#" class="nav__link">Contact</a></li>
                     </ul>
                 </nav>
@@ -40,6 +49,14 @@
                     <ul class="nav__mobile-list">
                         <li><a href="#" class="nav__mobile-link">Home</a></li>
                         <li><a href="#" class="nav__mobile-link">About us</a></li>
+                        <li>
+                            <label for="subnav-mobile-check" class="nav__mobile-link hover-browse">Product<i class="ti-angle-double-down"></i></label>
+                            <input type="checkbox" id="subnav-mobile-check" class="check-subnav">
+                                <ul class="subnav-mobile">
+                                    <li><a href="#">By name</a></li>
+                                    <li><a href="#">By created time</a></li>
+                                </ul>
+                        </li>
                         <li><a href="#" class="nav__mobile-link">Contact</a></li>
                     </ul>
                 </nav>

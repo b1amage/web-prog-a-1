@@ -4,7 +4,7 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 
@@ -12,11 +12,13 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
-main {
+.grid-container {
+    margin-top: 200px;
     height: 1600px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.25fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.25fr;
+    z-index: -1;
 }
 
 .product-img {
@@ -193,7 +195,7 @@ button:hover a {
         height: 200px;
     }
 
-    main {
+    .grid-container {
         grid-template-rows: 0.25fr 1fr 1fr 1fr 1fr 0.5fr 1fr 1fr 0.25fr;
     }
 
@@ -212,7 +214,7 @@ button:hover a {
 }
 
 @media only screen and (max-width: 1015px) {
-    main {
+    .grid-container {
         grid-template-rows: 0.25fr 1fr 1fr 1fr 1fr 0.5fr 1fr 1fr 0.25fr;
     }
 
