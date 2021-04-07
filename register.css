@@ -262,7 +262,18 @@ input[type=submit]:hover , input[type=reset]:hover {
 }
 
 /* Responsive */
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 2600px) {
+    form {
+        top: 25% !important;
+        height: 55% !important;
+    }
+
+    input[value=shopper] {
+        margin-left: 43.5% !important;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
     form {
         top: 25% !important;
         left: 5% !important;
@@ -274,6 +285,12 @@ input[type=submit]:hover , input[type=reset]:hover {
         width: 65% !important;
     }
 
+    input[value=shopper] {
+        margin-left: 41% !important;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
     input[value=shopper] {
         margin-left: 37.5% !important;
     }
@@ -360,7 +377,7 @@ input[type=submit]:hover , input[type=reset]:hover {
     }    
 }
 
-@media only screen and (min-height: 600px) and (max-height: 730px) {
+@media only screen and (min-height: 640px) and (max-height: 730px) {
     input[value=shopper] {
         margin-left: 32.5% !important;
     }
