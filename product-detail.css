@@ -144,6 +144,7 @@ button:hover a {
     border-bottom: 0px solid black;
     transition: all 0.5s ease-in-out;
     opacity: 1;
+    height: 15px;
 }
 
 .flex a:hover {
@@ -225,47 +226,6 @@ button:hover a {
     }
 }
 
-@media only screen and (max-width: 620px) {
-    button {
-        margin-left: 20px;
-    }
-
-    details > p {
-        margin-left: 20px;
-    }
-}
-
-@media only screen and (max-width: 505px) {
-    button {
-        margin-left: 10px;
-    }
-
-    details > p {
-        margin-left: 10px;
-    }
-
-    .description h1 {
-        font-size: 24px;
-    }
-
-    .description h2 {
-        font-size: 18px;
-    }
-
-    details > summary {
-        font-size: 12px;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    button {
-        margin-left: 0px;
-    }
-
-    details > p {
-        margin-left: 0px;
-    }
-}
 
 @media only screen and (max-width: 950px) {
     .flex {
@@ -305,5 +265,47 @@ button:hover a {
 
     .related {
         font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    button {
+        margin-left: 20px;
+    }
+
+    details > p {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    button {
+        margin-left: 10px;
+    }
+
+    details > p {
+        margin-left: 10px;
+    }
+
+    .description h1 {
+        font-size: 24px;
+    }
+
+    .description h2 {
+        font-size: 18px;
+    }
+
+    details > summary {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    button {
+        margin-left: 0px;
+    }
+
+    details > p {
+        margin-left: 0px;
     }
 }
