@@ -44,32 +44,41 @@ form hr {
     grid-gap: 5px;
 }
 
-/* Chrome, Safari, Edge, Opera */
+/* Hide the spin button in the number field*/
 input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+input::-webkit-inner-spin-button {/* Chrome, Safari, Edge, Opera */
   -webkit-appearance: none;
   margin: 0;
 }
 
-/* Firefox */
-input[type=number] {
+input[type=number] {/* Firefox */
   -moz-appearance: textfield;
 }
 
-/* Edge */
-::-webkit-input-placeholder { 
+::-webkit-input-placeholder {/* Edge */
     font-family: 'Poppins';
     color: black;
 }
 
-/* Internet Explorer 10-11 */  
-:-ms-input-placeholder { 
+:-ms-input-placeholder {/* Internet Explorer */  
     font-family: 'Poppins';
     color: black;
     font-weight: 300;
 }
+
+/* Custom the style of placeholder */
+::placeholder { /* Chrome, Firefox, Opera, Safari */
+    font-family: 'Poppins';
+    color: black;
+    font-weight: 300;
+  }
   
-::placeholder {
+:-ms-input-placeholder { /* Internet Explorer */
+    font-family: 'Poppins';
+    color: black;
+    font-weight: 300;}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
     font-family: 'Poppins';
     color: black;
     font-weight: 300;
