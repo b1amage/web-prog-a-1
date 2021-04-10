@@ -20,23 +20,6 @@ form {
     background-color: rgb(241, 236, 228);
     overflow-y: auto;
 }
-
-/* Custom scrollbar */
-::-webkit-scrollbar {
-    width: 2.5px;
-  }
-  
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-  
-::-webkit-scrollbar-thumb {
-    background: #888;
-}
-  
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
   
 form h1 {
     text-align: center;
@@ -157,12 +140,12 @@ input[type=file]:focus {
     -webkit-appearance: none;    
 }
 
-.country select:focus {
-    box-shadow: none;
+.country select:hover {
+    cursor: pointer;
 }
 
-#country * {
-    border: none;
+.country select:focus {
+    box-shadow: none;
 }
 
 input:not([type=file], [type=radio]) {
@@ -177,8 +160,8 @@ input:not([type=file], [type=radio]) {
 }
 
 input:not([type=radio], [type=submit], [type=reset], [type=file]):focus {
-    border-color: rgba(107, 141, 250, 0.849);
-    box-shadow: 0 0 10px rgba(92, 129, 250, 0.849);
+    border-color: rgba(59, 59, 59, 0.849);
+    box-shadow: 0 0 10px rgba(122, 121, 121, 0.849);
 }
 
 .center {
@@ -232,6 +215,10 @@ input[value=store-owner]:checked ~ .hidden {
     -ms-appearance: none;
     -webkit-appearance: none;
     font-size: 15px;
+}
+
+.store-category select:hover {
+    cursor: pointer;
 }
 
 .buttons {

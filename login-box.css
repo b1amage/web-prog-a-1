@@ -32,8 +32,8 @@ input {
 }
 
 input[type=text]:focus , input[type=password]:focus{
-    border-color: rgba(107, 141, 250, 0.849);
-    box-shadow: 0 0 10px rgba(92, 129, 250, 0.849);
+    border-color: rgba(59, 59, 59, 0.849);
+    box-shadow: 0 0 10px rgba(122, 121, 121, 0.849);
 }
 
 input[type=submit] {
@@ -42,12 +42,14 @@ input[type=submit] {
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 0.5px;
+    border: 2px solid black;
     background-color: rgb(38, 38, 39);
+    transition: all 0.15s linear;
 }
 
 input[type=submit]:hover {
     cursor: pointer;
-    background-color: rgba(38, 38, 39, 0.685);
+    background-color: rgba(38, 38, 39, 0.37);
 }
 
 #forgot-password {
@@ -82,7 +84,6 @@ hr {
 }
 
 #register a {
-    outline: none;
     width: 40%;
     margin: 5% 0;
     height: 50px;
@@ -95,17 +96,18 @@ hr {
     vertical-align: center;
     padding: 10px 0;
     letter-spacing: 0.5px;
+    border: 2px solid black;
     background-color: rgb(38, 38, 39);
-    border: none;
     border-radius: 6px;
 }
 
 #register a:hover {
     cursor: pointer;
-    background-color: rgba(38, 38, 39, 0.685);
+    background-color: rgba(38, 38, 39, 0.37);
 }
 
 /* Responsive */
+
 @media only screen and (max-width: 760px) {
     form {
         box-shadow: 0 0 10px gray;
