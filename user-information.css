@@ -39,8 +39,13 @@ body {
     margin: 5% 0;
 }
 
-#info span {
+#info ul li span {
     font-weight: bold;
+}
+
+#info ul li a {
+    text-decoration: none;
+    color: black;
 }
 
 /* Responsive */
@@ -139,7 +144,7 @@ body {
 
 @media only screen and (min-width: 350px) and (max-width: 450px) and (min-height: 600px) {
     #user-information {
-        margin: 22% 5% !important;
+        margin: 25% 5% !important;
     }
 
     #info ul li {
