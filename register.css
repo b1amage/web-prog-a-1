@@ -388,7 +388,7 @@ input[type=submit]:hover , input[type=reset]:hover {
 
 @media only screen and (max-width: 400px) {
     input[value=shopper] {
-        margin-left: 25.25% !important;
+        margin-left: 21.25% !important;
     }
 
     input[type=submit], input[type=reset] {
