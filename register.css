@@ -343,10 +343,10 @@ input[type=submit]:hover , input[type=reset]:hover {
         grid-area: 5 / 1 / span 1 / span 2 !important;
     }
 
-    label, ::placeholder, input {
+    label, ::placeholder, :-ms-input-placeholder, ::-ms-input-placeholder, input {
         font-size: 12px;
     }
-
+    
     form {
         height: 70% !important;
     }

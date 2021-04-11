@@ -99,6 +99,7 @@ hr {
     border: 2px solid black;
     background-color: rgb(38, 38, 39);
     border-radius: 6px;
+    transition: all 0.15s linear;
 }
 
 #register a:hover {
