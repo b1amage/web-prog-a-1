@@ -133,6 +133,19 @@ body main {
     display: flex;
 }
 
+#details-5{
+    display: none;
+}
+
+.pd5{
+    display: none;
+    margin-bottom: 100px;
+}
+
+#details-5:checked ~ .pd5 {
+    display: flex;
+}
+
 
 .category {
     font-weight: bold;
@@ -153,7 +166,9 @@ body main {
 @media only screen and (max-width: 1156px) {
     .pd1, 
     .pd2,
-    .pd3 {
+    .pd3, 
+    .pd4,
+    .pd5 {
         margin-bottom: 350px;
     }
 
@@ -165,7 +180,9 @@ body main {
 @media only screen and (max-width: 702px) {
     .pd1, 
     .pd2,
-    .pd3 {
+    .pd3,
+    .pd4,
+    .pd5 {
         margin-bottom: 650px;
     }
 }
@@ -173,7 +190,9 @@ body main {
 @media only screen and (max-width: 476px) {
     .pd1, 
     .pd2,
-    .pd3 {
+    .pd3,
+    .pd4,
+    .pd5 {
         margin-bottom: 1250px;
     }
 }
