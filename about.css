@@ -2,12 +2,19 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
 body
 {
     height: 200vh;
     background: white;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 /* title styling */
 .about .title,
@@ -38,6 +45,12 @@ body
     transform: translateX(-50%);
 }
 /* avatar box styling */
+/* .team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} */
 .team .avatar-box{
     position: relative;
     width: 290px;
@@ -46,7 +59,7 @@ body
     justify-content: center;
     align-items: center;
     margin: 10px;
-    background: white;
+    background: whitesmoke;
     transition: 0.8s;
 }
 .team .avatar-box:hover{
@@ -92,9 +105,9 @@ body
 }
 .team .avatar-box:before,
 .team .avatar-box:after{
-    background: linear-gradient(180deg,#f0792a,#010615,#f0792a);
+    background: linear-gradient(250deg,#ffc8a4,#010615,#f0622a);
 }
-.team .avatar-box:nth-child(2):before,
+/* .team .avatar-box:nth-child(2):before,
 .team .avatar-box:nth-child(2):after{
     background: linear-gradient(220deg,#f0792a,#010615,#f0792a);
 }
@@ -104,8 +117,8 @@ body
 }
 .team .avatar-box:nth-child(4):before,
 .team .avatar-box:nth-child(4):after{
-    background: linear-gradient(180deg,#f0792a,#010615,#f0792a);
-}
+    background: linear-gradient(180deg,#f0792a,#010615,#f0792a); 
+} */
 .team .avatar-box .box-content{
     position: absolute;
     bottom: 0;

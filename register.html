@@ -84,7 +84,7 @@
                     <input id="email" required type="email" name="email" placeholder="Email">  
                 </div>
                 <div class="phone">
-                    <input id="phone" required type="tel" name="phone" pattern="[0-9]*" placeholder="Phone number">  
+                    <input id="phone" required type="tel" name="phone" pattern="[0-9]*" minlength="10" maxlength="12" placeholder="Phone number" title="Only numbers are allowed">  
                 </div>
                 <div class="password">
                     <input id="password" required type="password" name="password" placeholder="Your password">
@@ -93,26 +93,26 @@
                     <input id="re-password" required type="password" name="re-password" placeholder="Re - enter your password">
                 </div>
                 <div class="first-name">
-                    <input id="first-name" required type="text" name="first-name" pattern="[a-zA-Z]*" placeholder="First name">
+                    <input id="first-name" required type="text" name="first-name" pattern="[a-zA-Z]*" placeholder="First name" title="Only text is allowed">
                 </div>
                 <div class="last-name">
-                    <input id="last-name" required type="text" name="last-name" pattern="[a-zA-Z]*" placeholder="Last name">
+                    <input id="last-name" required type="text" name="last-name" pattern="[a-zA-Z]*" placeholder="Last name" title="Only text is allowed">
                 </div>
                 <div class="address">
-                    <input id="address" required type="text" name="address" pattern="[a-zA-Z]*" placeholder="Address">
+                    <input id="address" required type="text" name="address" pattern="[a-zA-Z0-9]*" placeholder="Address">
                 </div>
                 <div class="city">
-                    <input id="city" required type="text" name="city" placeholder="City">
+                    <input id="city" required type="text" name="city" pattern="[a-zA-Z]*" placeholder="City" title="Only text is allowed">
                 </div>
                 <div class="zipcode">
-                    <input id="zipcode" required type="text" name="zipcode" required minlength="4" maxlength="6" placeholder="Zipcode">
+                    <input id="zipcode" required type="text" name="zipcode" required minlength="4" maxlength="6" pattern="[0-9]*" placeholder="Zipcode" title="Only numbers are allowed">
                 </div>
                 <div class="profile-picture">
                     <label for="profile-picture">Select a profile picture:</label>
                     <input id="profile-picture" required type="file" name="profile-picture" placeholder="Profile picture">
                 </div>
                 <div class="country">
-                    <select id="country" name="country">
+                    <select id="country" name="country" required>
                         <option value="" selected disabled hidden>Select a country</option>
                         <option value="AF">Afghanistan</option>
                         <option value="AL">Albania</option>
@@ -176,26 +176,26 @@
             <input required type="radio" name="account" value="shopper" id="shopper"><label for="shopper">Shopper</label>
             <input required type="radio" name="account" value="store-owner" id="store-owner"><label for="store-owner">Store owner</label>
             <div class="hidden">
-                <input id="business" required type="text" name="business-name" placeholder="Business name">
-                <input id="store-name" required type="text" name="store-name" placeholder="Store name">
+                <input id="business" required type="text" name="business-name" pattern="[a-zA-Z]*" placeholder="Business name" title="Only text is allowed">
+                <input id="store-name" required type="text" name="store-name" pattern="[a-zA-Z]*" placeholder="Store name" title="Only text is allowed">
                 <div class="store-category">
                     <label for="store-category">Store category</label>
-                    <select id="store-category" name="store-category">
-                    <option value="" selected disabled hidden>Select a store category</option>    
-                    <option value="department-stores">Department stores</option>
-                    <option value="grocery-stores">Grocery stores</option>
-                    <option value="restaurants">Restaurants</option>
-                    <option value="clothing-stores">Clothing stores</option>
-                    <option value="accessory-stores">Accessory stores</option>
-                    <option value="pharmacies">Pharmacies</option>
-                    <option value="technology-stores">Technology stores</option>
-                    <option value="pet-stores">Pet stores</option>
-                    <option value="toy-stores">Toy stores</option>
-                    <option value="specialty-stores">Specialty stores</option>
-                    <option value="thrift-stores">Thrift stores</option>
-                    <option value="services">Services</option>
-                    <option value="kiosks">Kiosks</option>
-                </select>
+                    <select id="store-category" name="store-category" required>
+                        <option value="" selected disabled hidden>Select a store category</option>    
+                        <option value="department-stores">Department stores</option>
+                        <option value="grocery-stores">Grocery stores</option>
+                        <option value="restaurants">Restaurants</option>
+                        <option value="clothing-stores">Clothing stores</option>
+                        <option value="accessory-stores">Accessory stores</option>
+                        <option value="pharmacies">Pharmacies</option>
+                        <option value="technology-stores">Technology stores</option>
+                        <option value="pet-stores">Pet stores</option>
+                        <option value="toy-stores">Toy stores</option>
+                        <option value="specialty-stores">Specialty stores</option>
+                        <option value="thrift-stores">Thrift stores</option>
+                        <option value="services">Services</option>
+                        <option value="kiosks">Kiosks</option>
+                    </select>
                 </div>                
             </div>
             <div class="buttons">

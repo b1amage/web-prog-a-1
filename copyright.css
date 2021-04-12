@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:wght@200;300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+main{
+    max-width: 100%;
+}
+
+h1{
+    margin: auto;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+p{
+    margin: auto;
+}
