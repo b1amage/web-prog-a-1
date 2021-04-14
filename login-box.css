@@ -81,6 +81,7 @@ hr {
 #register {
     display: flex;
     justify-content: center;
+    /* align-items: center; */
 }
 
 #register a {
@@ -121,12 +122,12 @@ hr {
     }
 }
 
-@media only screen and (min-height: 600px) {
+/* @media only screen and (min-height: 600px) {
     form {
         height: 58.5% !important;
         padding: 5% 0 !important;
     }
-}
+} */
 
 @media only screen and (min-height: 700px) {
     form {
