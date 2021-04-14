@@ -95,6 +95,9 @@ body main {
 .pd5 {
     display: none;
 }
+.pd5 {
+    margin-bottom: 100px;
+}
 
 #details:checked ~ .pd1,
 #details-2:checked ~ .pd2,
@@ -102,10 +105,6 @@ body main {
 #details-4:checked ~ .pd4,
 #details-5:checked ~ .pd5 {
     display: flex;
-}
-
-.pd5 {
-    margin-bottom: 100px;
 }
 
 .category {
