@@ -83,29 +83,69 @@ body main {
     margin-top: 60px;
 }
 
-#details,
-#details-2,
-#details-3,
-#details-4,
-#details,
-.pd1,
-.pd2,
-.pd3,
-.pd4,
-.pd5 {
+#details {
     display: none;
 }
-.pd5 {
+
+.pd1 {
+    display: none;
+}
+
+#details:checked ~ .pd1 {
+    display: flex;
+}
+
+#details-2 {
+    display: none;
+}
+
+.pd2 {
+    display: none;
+}
+
+#details-2:checked ~ .pd2 {
+    display: flex;
+}
+
+#details-3 {
+    display: none;
+}
+
+.pd3 {
+    display: none;
     margin-bottom: 100px;
 }
 
-#details:checked ~ .pd1,
-#details-2:checked ~ .pd2,
-#details-3:checked ~ .pd3,
-#details-4:checked ~ .pd4,
+#details-3:checked ~ .pd3 {
+    display: flex;
+}
+
+#details-4{
+    display: none;
+}
+
+.pd4{
+    display: none;
+    margin-bottom: 100px;
+}
+
+#details-4:checked ~ .pd4 {
+    display: flex;
+}
+
+#details-5{
+    display: none;
+}
+
+.pd5{
+    display: none;
+    margin-bottom: 100px;
+}
+
 #details-5:checked ~ .pd5 {
     display: flex;
 }
+
 
 .category {
     font-weight: bold;
@@ -126,7 +166,7 @@ body main {
 @media only screen and (max-width: 1156px) {
     .pd1, 
     .pd2,
-    .pd3,
+    .pd3, 
     .pd4,
     .pd5 {
         margin-bottom: 350px;
