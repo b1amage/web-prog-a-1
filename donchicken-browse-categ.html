@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Categories-DonChicken</title>
+    <link rel="stylesheet" href="./css/product-browse.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/themify-icons/themify-icons.css">
+</head>
+<body>
+    <header>
+        <main>
+            <nav class="first-nav">
+                <h1 class="logo"><a href="./index.html">RETAILERZ</a></h1>
+                <!-- Nav PC -->
+                <nav class="nav__pc">
+                    <ul class="nav__list">
+                        <li><a href="./donchicken-home.html" class="nav__link push" id="underline">Home</a></li>
+                        <li><a href="./about.html" class="nav__link" id="underline">About Us</a></li>
+                        <li><a href="./fee.html" class="nav__link" id="underline">Fees</a></li>
+                        <li>
+                            <a href="#" class="nav__link">My Account<i class="ti-angle-double-down"></i></a>
+                            <ul class="subnav">
+                                <li><a href="./user-information.html">Logged-in Users</a></li>
+                                <li><a href="./login-box.html">Unlogged-in Users</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="nav__link">Browse<i class="ti-angle-double-down"></i></a>
+                            <ul class="subnav">
+                                <li><a href="./donchicken-browse-time.html">Product By Created Time</a></li>
+                                <li><a href="./donchicken-browse-categ.html">Product By Category</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./faqs.html" class="nav__link">FAQs</a></li>
+                        <li><a href="./contact.html" class="nav__link">Contact</a></li>
+                        <li><a href="./order_placement.html" class="nav__mobile-link"><i class="ti-shopping-cart"></i></a></li>
+                    </ul>
+                </nav>
+    
+                
+                <!-- Nav responsive -->
+                <label for="nav-mobile-input" class="nav__bars-btn">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+                </label>
+                
+                <input type="checkbox" hidden name="" id="nav-mobile-input" class="nav__input">
+                
+    
+                <label for="nav-mobile-input" class="nav__overlay">
+    
+                </label>
+    
+                <nav class="nav__mobile">
+                    <label for="nav-mobile-input" class="nav__mobile-close">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                    </label>
+                    <ul class="nav__mobile-list">
+                        <li><a href="./donchicken-home.html" class="nav__mobile-link">Home</a></li>
+                        <li><a href="./about.html" class="nav__mobile-link">About us</a></li>
+                        <li><a href="./fee.html" class="nav__mobile-link">Fees</a></li>
+                        <li>
+                            <label for="subnav-mobile-check-account" class="nav__mobile-link hover-account">My Account<i class="ti-angle-double-down"></i></label>
+                            <input type="checkbox" id="subnav-mobile-check-account" class="check-subnav-account">
+                                <ul class="subnav-mobile-account">
+                                    <li><a href="./user-information.html">Logged-in Users</a></li>
+                                    <li><a href="./login-box.html">Unlogged-in Users</a></li>
+                                </ul>
+                        </li>
+                        <li>
+                            <label for="subnav-mobile-check-browse" class="nav__mobile-link hover-browse">Browse<i class="ti-angle-double-down"></i></label>
+                            <input type="checkbox" id="subnav-mobile-check-browse" class="check-subnav-browse">
+                                <ul class="subnav-mobile-browse">
+                                    <li><a href="./donchicken-browse-time.html">By Created Time</a></li>
+                                    <li><a href="./donchicken-browse-categ.html">By Category</a></li>
+                                </ul>
+                        </li>
+                        <li><a href="./faqs.html" class="nav__mobile-link">FAQs</a></li>
+                        <li><a href="./contact.html" class="nav__mobile-link">Contact</a></li>
+                        <li><a href="./order_placement.html" class="nav__mobile-link"><i class="ti-shopping-cart"></i></a></li>
+                    </ul>
+                </nav>
+                
+            </nav>
+        </main>
+    </header>
+    <main>
+        <label for="details" class="category">Appetizer<i class="ti-angle-double-down"></i></label>
+        <input type="checkbox" name="details" id="details">
+
+        <div class="product-container pd1">
+            <div class="product">
+                <div class="overlay">
+                    <p>20$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/app1.jpg" alt="appetizer-1" width="200" height="200"></a>
+                <h3><a href="#">Chicken Soup</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>12$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/app2.jpg" alt="appetizer-2" width="200" height="200"></a>
+                <h3><a href="#">Chicken Salad</a></h3>
+            </div>
+    
+            <div class="product lst">
+                <div class="overlay">
+                    <p>25$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/app3.jpg" alt="appetizer-3" width="200" height="200"></a>
+                <h3><a href="#">Boiled Shirmp</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>17$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/app4.jpg" alt="appetizer-4" width="200" height="200"></a>
+                <h3><a href="#">Chicken Roll</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>10$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/app5.jpg" alt="appetizer-5" width="200" height="200"></a>
+                <h3><a href="#">Pumkims Soup</a></h3>
+            </div>
+        </div>
+
+
+        <label for="details-2" class="category">Main<i class="ti-angle-double-down"></i></label>
+        <input type="checkbox" name="details" id="details-2">
+
+        <div class="product-container pd2">
+            <div class="product">
+                <div class="overlay">
+                    <p>35$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/main1.jpg" alt="main-1" width="200" height="200"></a>
+                <h3><a href="#">Steak</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>25$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/main2.jpg" alt="main-2" width="200" height="200"></a>
+                <h3><a href="#">Grilled Chicken</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>18$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/main3.jpg" alt="main-3" width="200" height="200"></a>
+                <h3><a href="#">Rice Chicken</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>17$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/main4.jpg" alt="main-4" width="200" height="200"></a>
+                <h3><a href="#">Steamed Chicken</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>19$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/main5.jpg" alt="main-5" width="200" height="200"></a>
+                <h3><a href="#">Fried Chicken</a></h3>
+            </div>
+        </div>
+
+        <label for="details-3" class="category">Dessert<i class="ti-angle-double-down"></i></label>
+        <input type="checkbox" name="details" id="details-3">
+
+        <div class="product-container pd3">
+            <div class="product">
+                <div class="overlay">
+                    <p>20$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/des1.jpg" alt="dessert-1" width="200" height="200"></a>
+                <h3><a href="#">Chocolate Cake</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>15$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/des2.jpg" alt="dessert-2" width="200" height="200"></a>
+                <h3><a href="#">Strawberry Cream</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>18$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/des3.jpg" alt="dessert-3" width="200" height="200"></a>
+                <h3><a href="#">Cream Brulee</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>15$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/des4.jpg" alt="dessert-4" width="200" height="200"></a>
+                <h3><a href="#">Donut-</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>12$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/des5.jpg" alt="dessert-5" width="200" height="200"></a>
+                <h3><a href="#">Mango Cream</a></h3>
+            </div>
+        </div>
+        <label for="details-4" class="category">Drinks<i class="ti-angle-double-down"></i></label>
+        <input type="checkbox" name="details" id="details-4">
+
+        <div class="product-container pd4">
+            <div class="product">
+                <div class="overlay">
+                    <p>6$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/dri1.jpg" alt="drinks-1" width="200" height="200"></a>
+                <h3><a href="#">Pepsi</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>7$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/dri2.jpg" alt="drinks-2" width="200" height="200"></a>
+                <h3><a href="#">7UP</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>3$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/dri3.jpg" alt="drinks-3" width="200" height="200"></a>
+                <h3><a href="#">Water</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>5$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/dri4.jpg" alt="drinks-4" width="200" height="200"></a>
+                <h3><a href="#">Yogurt</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>2$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/dri5.jpg" alt="drinks-5" width="200" height="200"></a>
+                <h3><a href="#">Ice-tea</a></h3>
+            </div>
+        </div>
+
+
+        <label for="details-5" class="category">Beverages<i class="ti-angle-double-down"></i></label>
+        <input type="checkbox" name="details" id="details-5">
+
+        <div class="product-container pd5">
+            <div class="product">
+                <div class="overlay">
+                    <p>5$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/bev.jpg" alt="drinks-1" width="200" height="200"></a>
+                <h3><a href="#">Soju Chumchurum</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>5$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/bev2.jpg" alt="drinks-2" width="200" height="200"></a>
+                <h3><a href="#">Soju Chamisul</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>3$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/bev3.jpg" alt="drinks-3" width="200" height="200"></a>
+                <h3><a href="#">Heniken</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>3-5$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/bev4.jpg" alt="drinks-4" width="200" height="200"></a>
+                <h3><a href="#">Tiger</a></h3>
+            </div>
+    
+            <div class="product">
+                <div class="overlay">
+                    <p>2.5$</p>
+                </div>
+                <a href="#" target="_blank"><img src="./images/don-chicken/bev5.jpg" alt="drinks-5" width="200" height="200"></a>
+                <h3><a href="#">Strong Bow</a></h3>
+            </div>
+        </div>
+    </main>
+    </main>
+    <footer>
+        <nav>
+            <h3 class="left">All Rights Reserved. © 2021 Sneakium.</h3>
+            <ul>
+                <li><a href="./copyright.html">Copyright</a></li>
+                <li><a href="./tos.html">ToS</a></li>
+                <li><a href="./policy.html">Privacy Policy</a></li>
+            </ul>
+            <h3 class="right">Design by developer team</h3>
+        </nav>
+    </footer>
+</body>
+</html>

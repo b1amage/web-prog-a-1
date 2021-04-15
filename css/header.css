@@ -140,7 +140,7 @@ a.nav__mobile-link {
     color: black;
     display: block;
     font-size: 1.4rem;
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 
 .nav__mobile-link:hover{
@@ -236,39 +236,46 @@ a.nav__mobile-link {
     padding-top: 20px;
 }
 
-.subnav-mobile {
+.subnav-mobile-account,
+.subnav-mobile-browse {
     display: none;
 }
 
-.subnav-mobile li {
+.subnav-mobile-account li,
+.subnav-mobile-browse li {
     list-style: none;
     padding: 10px 30px;
     font-size: 18px;
     
 }
 
-.subnav-mobile li a {
+.subnav-mobile-account li a,
+.subnav-mobile-browse li a{
     text-decoration: none;
     color: black;
 }
 
 
-.subnav-mobile li:hover a {
+.subnav-mobile-account li:hover a,
+.subnav-mobile-browse li:hover a{
     text-decoration: underline;
     color: #5a473a;
 }
 
-.check-subnav:checked ~ .subnav-mobile {
+.check-subnav-account:checked ~ .subnav-mobile-account,
+.check-subnav-browse:checked ~ .subnav-mobile-browse {
     display: block;
 }
 
-#subnav-mobile-check {
+#subnav-mobile-check-account,
+#subnav-mobile-check-browse {
     position: absolute;
     top: 320px;
     left: 100px;
     display: none;
 }
 
+.hover-account,
 .hover-browse {
     padding: 20px;
     list-style: none;

@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./header.css">
-    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
-    <link rel="stylesheet" href="./footer.css">
-    
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/themify-icons/themify-icons.css">
 </head>
 <body>
     <header>
@@ -19,19 +18,26 @@
                 <!-- Nav PC -->
                 <nav class="nav__pc">
                     <ul class="nav__list">
-                        <li><a href="#" class="nav__link push" id="underline">Home</a></li>
-                        <li><a href="#" class="nav__link" id="underline">About Us</a></li>
-                        <li><a href="#" class="nav__link" id="underline">Fees</a></li>
-                        <li><a href="#" class="nav__link" id="underline">My account</a></li>
+                        <li><a href="./index.html" class="nav__link push" id="underline">Home</a></li>
+                        <li><a href="./about.html" class="nav__link" id="underline">About Us</a></li>
+                        <li><a href="./fee.html" class="nav__link" id="underline">Fees</a></li>
+                        <li>
+                            <a href="#" class="nav__link">My Account<i class="ti-angle-double-down"></i></a>
+                            <ul class="subnav">
+                                <li><a href="./user-information.html">Logged-in Users</a></li>
+                                <li><a href="./login-box.html">Unlogged-in Users</a></li>
+                            </ul>
+                        </li>
                         <li>
                             <a href="#" class="nav__link">Browse<i class="ti-angle-double-down"></i></a>
                             <ul class="subnav">
-                                <li><a href="#">Store By Name</a></li>
-                                <li><a href="#">Store By Category</a></li>
+                                <li><a href="./store-browse-name.html">Store By Name</a></li>
+                                <li><a href="./store-browse-categ.html">Store By Category</a></li>
                             </ul>
                         </li>
                         <li><a href="./faqs.html" class="nav__link">FAQs</a></li>
                         <li><a href="./contact.html" class="nav__link">Contact</a></li>
+                        <li><a href="./order_placement.html" class="nav__mobile-link"><i class="ti-shopping-cart"></i></a></li>
                     </ul>
                 </nav>
     
@@ -53,23 +59,28 @@
                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
                     </label>
                     <ul class="nav__mobile-list">
-                        <li><a href="#" class="nav__mobile-link">Home</a></li>
-                        <li><a href="#" class="nav__mobile-link">About us</a></li>
-                        <li><a href="#" class="nav__mobile-link">Fees</a></li>
-                        <li><a href="#" class="nav__mobile-link">My account</a></li>
-                        
+                        <li><a href="./index.html" class="nav__mobile-link">Home</a></li>
+                        <li><a href="./about.html" class="nav__mobile-link">About us</a></li>
+                        <li><a href="./fee.html" class="nav__mobile-link">Fees</a></li>
                         <li>
-                            <label for="subnav-mobile-check" class="nav__mobile-link hover-browse">Browse<i class="ti-angle-double-down"></i></label>
-                            <input type="checkbox" id="subnav-mobile-check" class="check-subnav">
-                                <ul class="subnav-mobile">
-                                    <li><a href="#">By Name</a></li>
-                                    <li><a href="#">By Category</a></li>
+                            <label for="subnav-mobile-check-account" class="nav__mobile-link hover-account">My Account<i class="ti-angle-double-down"></i></label>
+                            <input type="checkbox" id="subnav-mobile-check-account" class="check-subnav-account">
+                                <ul class="subnav-mobile-account">
+                                    <li><a href="./user-information.html">Logged-in Users</a></li>
+                                    <li><a href="./login-box.html">Unlogged-in Users</a></li>
                                 </ul>
                         </li>
-              
-                        <li><a href="#" class="nav__mobile-link">FAQs</a></li>
-                        <li><a href="#" class="nav__mobile-link">Contact</a></li>
-                        <li><a href="#" class="nav__mobile-link"><i class="ti-shopping-cart"></i></a></li>
+                        <li>
+                            <label for="subnav-mobile-check-browse" class="nav__mobile-link hover-browse">Browse<i class="ti-angle-double-down"></i></label>
+                            <input type="checkbox" id="subnav-mobile-check-browse" class="check-subnav-browse">
+                                <ul class="subnav-mobile-browse">
+                                    <li><a href="./store-browse-name.html">By Name</a></li>
+                                    <li><a href="./store-browse-categ.html">By Category</a></li>
+                                </ul>
+                        </li>
+                        <li><a href="./faqs.html" class="nav__mobile-link">FAQs</a></li>
+                        <li><a href="./contact.html" class="nav__mobile-link">Contact</a></li>
+                        <li><a href="./order_placement.html" class="nav__mobile-link"><i class="ti-shopping-cart"></i></a></li>
                     </ul>
                 </nav>
                 
@@ -86,40 +97,40 @@
                 <div class="overlay">
                     <p>Shoes & Sport Clothes</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/nike.jpeg" alt="nike-logo" width="200" height="200"></a>
-                <h3><a href="#" class="underline">Nike</a></h3>
+                <a href="./nike-home.html" target="_blank"><img src="./images/index-img/nike.jpeg" alt="nike-logo" width="200" height="200"></a>
+                <h3><a href="./nike-home.html" class="underline">Nike</a></h3>
             </div>
 
             <div class="store">
                 <div class="overlay">
                     <p>Casual Clothes</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/uniqlo.jpeg" alt="uniqlo" width="200" height="200"></a>
-                <h3><a href="#" class="underline">Uniqlo</a></h3>
+                <a href="./nike-home.html" target="_blank"><img src="./images/index-img/uniqlo.jpeg" alt="uniqlo" width="200" height="200"></a>
+                <h3><a href="./nike-home.html" class="underline">Uniqlo</a></h3>
             </div>
 
             <div class="store">
                 <div class="overlay">
                     <p>Fried Chicken</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/kfc.jpeg" alt="kfc" width="200" height="200"></a>
-                <h3><a href="#" class="underline">KFC</a></h3>
+                <a href="./nike-home.html" target="_blank"><img src="./images/index-img/kfc.jpeg" alt="kfc" width="200" height="200"></a>
+                <h3><a href="./nike-home.html" class="underline">KFC</a></h3>
             </div>
 
             <div class="store">
                 <div class="overlay">
                     <p>Milk Tea</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/gongcha.jpeg" alt="gongcha-logo" width="200" height="200"></a>
-                <h3><a href="#" class="underline">Gongcha</a></h3>
+                <a href="./nike-home.html" target="_blank"><img src="./images/index-img/gongcha.jpeg" alt="gongcha-logo" width="200" height="200"></a>
+                <h3><a href="./nike-home.html" class="underline">Gongcha</a></h3>
             </div>
 
             <div class="store">
                 <div class="overlay">
                     <p>Luxury Items</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/lv.jpeg" alt="LV-logo" width="200" height="200"></a>
-                <h3><a href="#" class="underline">Louis Vuitton</a></h3>
+                <a href="./nike-home.html" target="_blank"><img src="./images/index-img/lv.jpeg" alt="LV-logo" width="200" height="200"></a>
+                <h3><a href="./nike-home.html" class="underline">Louis Vuitton</a></h3>
             </div>
         </div>
         <!-- New Product -->
@@ -131,40 +142,40 @@
                 <div class="overlay">
                     <p>2000$</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/jd1.jpg" alt="nike-product" width="200" height="200"></a>
-                <h3><a href="#" class="underline">Nike Jordan 1 Dior</a></h3>
+                <a href="./product-detail.html" target="_blank"><img src="./images/index-img/jd1.jpg" alt="nike-product" width="200" height="200"></a>
+                <h3><a href="./product-detail.html" class="underline">Nike Jordan 1 Dior</a></h3>
             </div>
 
             <div class="product">
                 <div class="overlay">
                     <p>250$</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/unqilo-product.jpeg" alt="uniqlo-product" width="200" height="200"></a>
-                <h3><a href="#" class="underline">Uniqlo Blazzer</a></h3>
+                <a href="./product-detail.html" target="_blank"><img src="./images/index-img/unqilo-product.jpeg" alt="uniqlo-product" width="200" height="200"></a>
+                <h3><a href="./product-detail.html" class="underline">Uniqlo Blazzer</a></h3>
             </div>
 
             <div class="product">
                 <div class="overlay">
                     <p>10$</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/kfc-product.jpeg" alt="kfc-product" width="200" height="200"></a>
-                <h3><a href="#" class="underline">Fried Spicy Chicken</a></h3>
+                <a href="./product-detail.html" target="_blank"><img src="./images/index-img/kfc-product.jpeg" alt="kfc-product" width="200" height="200"></a>
+                <h3><a href="./product-detail.html" class="underline">Fried Spicy Chicken</a></h3>
             </div>
 
             <div class="product">
                 <div class="overlay">
                     <p>9$</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/gongcha-product.jpeg" alt="gongcha-product" width="200" height="200"></a>
-                <h3><a href="#" class="underline">Bubble Milk Tea</a></h3>
+                <a href="./product-detail.html" target="_blank"><img src="./images/index-img/gongcha-product.jpeg" alt="gongcha-product" width="200" height="200"></a>
+                <h3><a href="./product-detail.html" class="underline">Bubble Milk Tea</a></h3>
             </div>
 
             <div class="product">
                 <div class="overlay">
                     <p>3100$</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/lv-product.jpeg" alt="lv-product" width="200" height="200"></a>
-                <h3><a href="#" class="underline">T-Shirt LV</a></h3>
+                <a href="./product-detail.html" target="_blank"><img src="./images/index-img/lv-product.jpeg" alt="lv-product" width="200" height="200"></a>
+                <h3><a href="./product-detail.html" class="underline">T-Shirt LV</a></h3>
             </div>
         </div>
 
@@ -177,40 +188,40 @@
                 <div class="overlay">
                     <i class="ti-location-pin"></i><p>15 Tran Hung Dao, District 1</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/G _ LAB.jpg" alt="glab-logo" width="200" height="200"></a>
-                <h3><a href="#" class="underline">GLAB</a></h3>
+                <a href="./tgdd-home.html" target="_blank"><img src="./images/index-img/G _ LAB.jpg" alt="glab-logo" width="200" height="200"></a>
+                <h3><a href="./tgdd-home.html" class="underline">GLAB</a></h3>
             </div>
 
             <div class="feature">
                 <div class="overlay">
                     <p>Local Brand Clothes</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/bobui.jpeg" alt="bobui-logo" width="200" height="200"></a>
-                <h3><a href="#" class="underline">BoBui</a></h3>
+                <a href="./tgdd-home.html" target="_blank"><img src="./images/index-img/bobui.jpeg" alt="bobui-logo" width="200" height="200"></a>
+                <h3><a href="./tgdd-home.html" class="underline">BoBui</a></h3>
             </div>
 
             <div class="feature">
                 <div class="overlay">
                     <p>Chicken Food</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/donchicken.jpeg" alt="donchicken-logo" width="200" height="200"></a>
-                <h3><a href="#" class="underline">Don Chicken</a></h3>
+                <a href="./tgdd-home.html" target="_blank"><img src="./images/index-img/donchicken.jpeg" alt="donchicken-logo" width="200" height="200"></a>
+                <h3><a href="./tgdd-home.html" class="underline">Don Chicken</a></h3>
             </div>
 
             <div class="feature">
                 <div class="overlay">
                     <p>Coffees & Freeze</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/highlands.jpeg" alt="highland-logo" width="200" height="200"></a>
-                <h3><a href="#" class="underline">Highlands</a></h3>
+                <a href="./tgdd-home.html" target="_blank"><img src="./images/index-img/highlands.jpeg" alt="highland-logo" width="200" height="200"></a>
+                <h3><a href="./tgdd-home.html" class="underline">Highlands</a></h3>
             </div>
 
             <div class="feature">
                 <div class="overlay">
                     <p>Luxury Watch</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/rolex.jpeg" alt="rolex-logo" width="200" height="200"></a>
-                <h3><a href="#" class="underline">Rolex</a></h3>
+                <a href="./tgdd-home.html" target="_blank"><img src="./images/index-img/rolex.jpeg" alt="rolex-logo" width="200" height="200"></a>
+                <h3><a href="./tgdd-home.html" class="underline">Rolex</a></h3>
             </div>
         </div>
 
@@ -223,50 +234,50 @@
                 <div class="overlay">
                     <p>180$</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/freak2.jpg" alt="freak2-img" width="200" height="200"></a>
-                <h3><a href="#" class="underline">Yellow T-Shirt</a></h3>
+                <a href="./product-detail.html" target="_blank"><img src="./images/index-img/freak2.jpg" alt="freak2-img" width="200" height="200"></a>
+                <h3><a href="./product-detail.html" class="underline">Yellow T-Shirt</a></h3>
             </div>
 
             <div class="feature">
                 <div class="overlay">
                     <p>130$</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/bobui-product.jpeg" alt="bobui-img" width="200" height="200"></a>
-                <h3><a href="#" class="underline">Yellow T-Shirt</a></h3>
+                <a href="./product-detail.html" target="_blank"><img src="./images/index-img/bobui-product.jpeg" alt="bobui-img" width="200" height="200"></a>
+                <h3><a href="./product-detail.html" class="underline">Yellow T-Shirt</a></h3>
             </div>
 
             <div class="feature">
                 <div class="overlay">
                     <p>20$</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/donchicken-product.jpeg" alt="bobui-img" width="200" height="200"></a>
-                <h3><a href="#" class="underline">Cheese Chicken</a></h3>
+                <a href="./product-detail.html" target="_blank"><img src="./images/index-img/donchicken-product.jpeg" alt="bobui-img" width="200" height="200"></a>
+                <h3><a href="./product-detail.html" class="underline">Cheese Chicken</a></h3>
             </div>
 
             <div class="feature">
                 <div class="overlay">
                     <p>16$</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/highlands-product.jpeg" alt="highlands-img" width="200" height="200"></a>
-                <h3><a href="#" class="underline">Freeze Chocolate</a></h3>
+                <a href="./product-detail.html" target="_blank"><img src="./images/index-img/highlands-product.jpeg" alt="highlands-img" width="200" height="200"></a>
+                <h3><a href="./product-detail.html" class="underline">Freeze Chocolate</a></h3>
             </div>
 
             <div class="feature">
                 <div class="overlay">
                     <p>1300$</p>
                 </div>
-                <a href="#" target="_blank"><img src="./content-img/rolex-product.jpeg" alt="rolex-img" width="200" height="200"></a>
-                <h3><a href="#" class="underline">Airking Rolex</a></h3>
+                <a href="./product-detail.html" target="_blank"><img src="./images/index-img/rolex-product.jpeg" alt="rolex-img" width="200" height="200"></a>
+                <h3><a href="./product-detail.html" class="underline">Airking Rolex</a></h3>
             </div>
         </div>
     </main>
     <footer>
         <nav>
-            <h3 class="left">All Rights Reserved. © 2021 Sneakium.</h3>
+            <h3 class="left">All Rights Reserved. © 2021 RETAILERZ.</h3>
             <ul>
-                <li><a href="#">Copyright</a></li>
-                <li><a href="#">ToS</a></li>
-                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="./copyright.html">Copyright</a></li>
+                <li><a href="./tos.html">ToS</a></li>
+                <li><a href="./policy.html">Privacy Policy</a></li>
             </ul>
             <h3 class="right">Design by developer team</h3>
         </nav>
