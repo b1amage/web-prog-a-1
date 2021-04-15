@@ -249,3 +249,15 @@ hr {
         font-size: 25px;
     }
 }
+
+@media only screen and (min-height: 500px) {
+    form {
+        top: 25% !important;
+        height: 60% !important;
+        padding: 1% 0 !important; 
+    }   
+
+    input {
+        margin-top: 2.5px;
+    }
+}
