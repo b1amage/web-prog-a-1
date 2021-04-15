@@ -5,9 +5,12 @@ body {
     background-color: #f6f6f6;
 }
 
+.login-box {
+    display: flex;
+}
+
 form {
     position: fixed;
-    display: block;
     top: 25%;
     left: 35%;
     width: 30%;
@@ -250,7 +253,7 @@ hr {
     }
 }
 
-@media only screen and (min-height: 500px) {
+@media only screen and (max-height: 600px) {
     form {
         top: 25% !important;
         height: 60% !important;
