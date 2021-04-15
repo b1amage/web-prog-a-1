@@ -7,6 +7,7 @@ body {
 
 form {
     position: fixed;
+    display: block;
     top: 25%;
     left: 35%;
     width: 30%;
@@ -81,7 +82,7 @@ hr {
 #register {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
 }
 
 #register a {
@@ -122,12 +123,12 @@ hr {
     }
 }
 
-/* @media only screen and (min-height: 600px) {
+@media only screen and (min-height: 500px) {
     form {
         height: 58.5% !important;
         padding: 5% 0 !important;
     }
-} */
+}
 
 @media only screen and (min-height: 700px) {
     form {
@@ -163,13 +164,17 @@ hr {
         width: 90%;
         height: 55%;
     }
+    input[type=submit] {
+        font-size: 15px;
+    }
 
     #register {
         height: 15%;
     }
 
     #register a {
-        margin: 10% 0;
+        margin: 5% 0;
+        font-size: 15px;
     }
 }
 
