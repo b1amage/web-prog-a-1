@@ -14,8 +14,11 @@ Nguyen Trong Minh Long - s3878693
 ## Contributions:
 
 Nguyen Anh Duy (25%):
+- 
 
 Nguyen Luu Quoc Bao (25%):
+- Header and footer
+- 
 
 Dao Kha Tuan (25%): 
 
