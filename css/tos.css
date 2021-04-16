@@ -11,22 +11,41 @@ body{
     flex-wrap: wrap;
 }
 .container {
-    margin: 130px 50px 30px;
+    margin: 120px 80px 50px;
+    line-height: 1.6;
     word-spacing: 2px;
 }
+.line{
+    background-color: #000;
+    left: 0;
+    margin: 20px 0px;
+    height: 2px;
+    width: 100%;
+    opacity: 0.5;
+}
+h1{
+    font-size: 35px;
+    font-weight: 800;
+}
 h2{
+    margin: 10px 0;
     font-size: 25px;
     font-weight: 600;
 }
 h3{
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
 }
-p{
-    color: black;
-    font-size: 14px;
-    font-weight: 300;
+h5{
+    color: rgb(70, 70, 70);
+    font-size: 16px;
+    font-weight: 400;
 }
 ul{
     margin-left: 50px;
+}
+p, li{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
 }

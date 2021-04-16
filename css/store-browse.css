@@ -81,6 +81,10 @@ body main {
     margin-top: 60px;
 }
 
+.label {
+    display: inline;
+}
+
 #details,
 #details-2,
 #details-3,

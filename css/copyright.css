@@ -11,15 +11,32 @@ body{
     flex-wrap: wrap;
 }
 .container{
-    margin: 130px 50px 30px;
+    margin: 120px 80px 50px;
+    line-height: 1.6;
     word-spacing: 2px;
 }
 h1{
-    font-weight: 600;
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 800;
 }
-
-p{
+h2{
+    margin: 10px 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+.line{
+    background-color: #000;
+    left: 0;
+    margin: 20px 0px;
+    height: 2px;
+    width: 100%;
+    opacity: 0.5;
+}
+p, li{
+    color: black;
+    font-size: 14px;
     font-weight: 300;
-    font-size: 18px;
+}
+ul{
+    margin-left: 50px;
 }
