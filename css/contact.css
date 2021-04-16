@@ -57,6 +57,7 @@ button[type="submit"]:hover{
     border: 2px solid black;
     font-weight: 600;
     width: 150px;
+    cursor: pointer;
 }
 button[type="reset"]{
     background-color: #c7bdb1;
@@ -75,6 +76,7 @@ button[type="reset"]:hover{
     border: 2px solid black;
     font-weight: 600;
     width: 150px;
+    cursor: pointer;
 }
 form{
     font-size: 25px;
