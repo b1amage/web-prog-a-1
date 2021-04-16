@@ -14,24 +14,47 @@ Nguyen Trong Minh Long - s3878693
 ## Contributions:
 
 Nguyen Anh Duy (25%):
+- Write Readme.doc
 - Dividing tasks to all the members
 - Find the fonts and color palete code
-* HTML pages:
-- about.html
-- copyright.html, tos.html, privacy.html
+- HTML pages:
+ - about.html
+ - copyright.html
+ - tos.html
+ - privacy.html
+ - store-browse and product-browse pages (categories, name, created time)
+- Link all the html files to index.html
 
 Nguyen Luu Quoc Bao (25%):
 - Header and Footer
-- index.html
-- product-detail.html
-- order-placement.html
-- thanks.html
+- HTML pages:
+ - index.html
+ - product-detail.html
+ - order-placement.html
+ - thanks.html
+ - store-sample.html (a template for other stores)
 - Customize css file samples to support teammates (index, store-home, store-browse)
-- Support teammates with some responsive elements, fixing bugs and add animations.
+- Support teammates with some responsive elements, fixing bugs and add animations
+
 Dao Kha Tuan (25%): 
-
+- HTML pages:
+ - user-information.html
+ - login-box.html
+ - forgot-password.html
+ - register.html
+- Support teammates with some responsive elements and fixing bugs
+- Test the website on different platforms
+ 
 Nguyen Trong Minh Long (25%):
-
+- HTML pages:
+ - faqs.html
+ - contact.html
+ - store and product pages:
+  - Nike
+  - Don Chicken
+  - The Gioi Di Dong
+ - Support teammates on design the website
+ - Test the website and identify the bugs
 
 ## Responsive Devices-Configuration
 We have responsive on almost device. 
