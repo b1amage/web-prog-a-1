@@ -1,12 +1,12 @@
 /* Import the font  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-body {
-    background-color: #f6f6f6;
+main {
+    overflow: auto;
 }
 
-.login-box {
-    display: flex;
+body {
+    background-color: #f6f6f6;
 }
 
 form {
@@ -85,7 +85,6 @@ hr {
 #register {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 #register a {
