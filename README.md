@@ -11,22 +11,32 @@ Dao Kha Tuan - s3877347
 
 Nguyen Trong Minh Long - s3878693
 
-## Contribution
+## Contributions:
 
-Nguyen Anh Duy:
+Nguyen Anh Duy (25%):
 
-Nguyen Luu Quoc Bao:
+Nguyen Luu Quoc Bao (25%):
 
-Dao Kha Tuan: 
+Dao Kha Tuan (25%): 
 
-Nguyen Trong Minh Long:
+Nguyen Trong Minh Long (25%):
 
 
-## Responsive
+## Responsive Devices-Configuration
 We have responsive on almost device. 
 However, this website is best on PC, Ipad Pro, and IphoneX
 
 ## References
 1. Underline effect
 https://jsfiddle.net/1gyksyoa/
+
+2. Copyright source:
+https://www.thebodyshop.com.vn/en/copyright/
+https://www.amazon.com/Copyright-Law/b?ie=UTF8&node=8883983011/
+
+3. TOS source:
+https://policies.google.com/terms?hl=en-US
+
+4. Privacy Policies source:
+https://typeful.co/privacy-policy/RW-Z1mfH
 
