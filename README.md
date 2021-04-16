@@ -14,7 +14,7 @@ Nguyen Trong Minh Long - s3878693
 ## Contributions:
 
 Nguyen Anh Duy (25%):
-- Write Readme.doc
+- Write README.md
 - Dividing tasks to all the members
 - Find the fonts and color palete code
 - HTML pages:
