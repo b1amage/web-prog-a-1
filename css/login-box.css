@@ -4,6 +4,7 @@
 main {
     display: flex;
     justify-content: center;
+    overflow: auto;
 }
 
 body {
