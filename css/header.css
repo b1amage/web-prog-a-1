@@ -105,6 +105,10 @@ a.nav__mobile-link {
     right: 50px;
 }
 
+.nav__bars-btn:hover {
+    cursor: pointer;
+}
+
 .nav__overlay {
     position: fixed;
     top: 0;

@@ -4,7 +4,7 @@
 h1.title{
    background-color: #c7bdb1;
    text-align: center; 
-   padding: 30px;
+   padding: 15px;
    width: 100%;
    margin: 0;
    border:0;
@@ -40,7 +40,7 @@ input[type="email"]:focus{
     background-color: cornsilk;
 }
 button[type="submit"]{
-    background-color: darkseagreen;
+    background-color: #c7bdb1;
     padding: 10px;
     color:rgb(250, 252, 252);
     border: 2px solid black;
@@ -48,31 +48,35 @@ button[type="submit"]{
     width: 150px;
     font-size: 20px;
     margin-left: 8px;
+    border-radius: 25px;
 }
 button[type="submit"]:hover{
-    background-color: rgb(9, 75, 9);
+    background-color: rgb(7, 124, 7);
     padding: 10px;
     color:rgb(250, 252, 252);
     border: 2px solid black;
     font-weight: 600;
     width: 150px;
+    cursor: pointer;
 }
 button[type="reset"]{
-    background-color:rgba(199, 76, 76, 0.856);
+    background-color: #c7bdb1;
     padding: 10px;
     color: white;
     border: 2px solid black;
     font-weight: 600;
     width: 150px;
     font-size: 20px;
+    border-radius: 25px;
 }
 button[type="reset"]:hover{
-    background-color:rgb(131, 6, 6);
+    background-color:rgb(223, 0, 0);
     padding: 10px;
     color: white;
     border: 2px solid black;
     font-weight: 600;
     width: 150px;
+    cursor: pointer;
 }
 form{
     font-size: 25px;

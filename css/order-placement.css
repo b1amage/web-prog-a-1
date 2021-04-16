@@ -79,8 +79,7 @@ html {
 .product-1 h6,
 .product-2 h6,
 .product-3 h6 {
-    color: blue;
-    opacity: 0.6;
+    color: #5a473a;
 }
 
 input[type="number"] {
@@ -135,8 +134,7 @@ input[type="number"] {
 }
 
 .change {
-    color: blue;
-    opacity: 0.6;
+    color: #5a473a;
 }
 
 .change:hover {
@@ -179,14 +177,13 @@ input[type="number"] {
 }
 
 .sub-title {
-    color: blue;
-    opacity: 0.6;
+    color: #5a473a;
 }
 
 .button-container button {
     min-width: 150px;
     min-height: 40px;
-    background-color: blue;
+    background-color: #5a473a;
     opacity: 0.6;
     color: white;
     outline: none;
