@@ -14,12 +14,20 @@ Nguyen Trong Minh Long - s3878693
 ## Contributions:
 
 Nguyen Anh Duy (25%):
-- 
+- Dividing tasks to all the members
+- Find the fonts and color palete code
+* HTML pages:
+- about.html
+- copyright.html, tos.html, privacy.html
 
 Nguyen Luu Quoc Bao (25%):
-- Header and footer
-- 
-
+- Header and Footer
+- index.html
+- product-detail.html
+- order-placement.html
+- thanks.html
+- Customize css file samples to support teammates (index, store-home, store-browse)
+- Support teammates with some responsive elements, fixing bugs and add animations.
 Dao Kha Tuan (25%): 
 
 Nguyen Trong Minh Long (25%):
