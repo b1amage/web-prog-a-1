@@ -27,16 +27,21 @@ We have responsive on almost device.
 However, this website is best on PC, Ipad Pro, and IphoneX
 
 ## References
-1. Underline effect
+### 1. Underline effect
+
 https://jsfiddle.net/1gyksyoa/
 
-2. Copyright source:
+### 2. Copyright source:
+
 https://www.thebodyshop.com.vn/en/copyright/
+
 https://www.amazon.com/Copyright-Law/b?ie=UTF8&node=8883983011/
 
-3. TOS source:
+### 3. TOS source:
+
 https://policies.google.com/terms?hl=en-US
 
-4. Privacy Policies source:
+### 4. Privacy Policies source:
+
 https://typeful.co/privacy-policy/RW-Z1mfH
 
