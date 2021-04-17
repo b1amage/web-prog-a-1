@@ -1,6 +1,15 @@
 # web_programming_asm_1
 Assignment 1 of web programming course 
 
+# Description
+This is the Retailez mall in which sell a myriad of product from different brands. It is just like Van Hanh Mall or Crescent Mall
+
+# Link to our website:
+https://retailez.netlify.app/
+
+# Github
+https://github.com/s3877698/web_programming_asm_1
+
 ## Group Members
 
 Nguyen Anh Duy - s3878141
@@ -9,7 +18,7 @@ Nguyen Luu Quoc Bao - s3877698
 
 Dao Kha Tuan - s3877347
 
-Nguyen Trong Minh Long - s3878693
+Nguyen Trong Minh Long - s3878694
 
 ## Contributions:
 
