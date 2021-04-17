@@ -68,7 +68,7 @@ Nguyen Trong Minh Long (25%):
 
 ## Responsive Devices-Configuration
 We have responsive on almost device. 
-However, this website is best on PC, Ipad Pro, and IphoneX
+However, this website is best on PC, Ipad, and IphoneX
 
 ## References
 ### 1. Underline effect
