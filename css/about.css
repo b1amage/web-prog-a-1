@@ -31,7 +31,7 @@ body
     font-family: 'Ubuntu', sans-serif;
 }
 /* Create a line after the title */
-.title::after{
+/* .title::after{
     content: "";
     position: absolute;
     bottom: 0px;
@@ -41,7 +41,7 @@ body
     background: black;
     opacity: 0.8;
     transform: translateX(-50%);
-}
+} */
 
 /* content styling */
 .content{
