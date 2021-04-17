@@ -81,7 +81,7 @@ a.nav__link:hover {
 }
 
 a.nav__mobile-link {
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -144,7 +144,7 @@ a.nav__mobile-link {
     color: black;
     display: block;
     font-size: 1.4rem;
-    padding: 5px 0px;
+    padding: 0px 0px;
 }
 
 .nav__mobile-link:hover{
@@ -281,7 +281,7 @@ a.nav__mobile-link {
 
 .hover-account,
 .hover-browse {
-    padding: 20px;
+    padding: 10px;
     list-style: none;
 }
 
