@@ -15,16 +15,16 @@ body{
     line-height: 1.6;
     word-spacing: 2px;
 }
-h1{
+.container h1{
     font-size: 35px;
     font-weight: 800;
 }
-h2{
+.container h2{
     margin: 10px 0;
     font-size: 25px;
     font-weight: 500;
 }
-.line{
+.container .line{
     background-color: #000;
     left: 0;
     margin: 20px 0px;
@@ -32,11 +32,11 @@ h2{
     width: 100%;
     opacity: 0.5;
 }
-p, li{
+.container p, li{
     color: black;
     font-size: 15px;
     font-weight: 300;
 }
-ul{
+.container ul{
     margin-left: 50px;
 }

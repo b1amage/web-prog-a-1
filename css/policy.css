@@ -15,7 +15,7 @@ body{
     line-height: 1.6;
     word-spacing: 2px;
 }
-.line{
+.container .line{
     background-color: #000;
     left: 0;
     margin: 20px 0px;
@@ -23,43 +23,43 @@ body{
     width: 100%;
     opacity: 0.5;
 }
-h1{
+.container h1{
     font-size: 35px;
     font-weight: 800;
 }
-h2{
+.container h2{
     margin: 10px 0;
     font-size: 25px;
     font-weight: 700;
 }
-h3{
+.container h3{
     font-size: 20px;
     font-weight: 500;
 }
-h5{
+.container h5{
     color: rgb(70, 70, 70);
     font-size: 16px;
     font-weight: 400;
 }
-ul{
+.container ul{
     margin-left: 50px;
 }
-p, li{
+.container p, li{
     color: black;
     font-size: 15px;
     font-weight: 300;
 }
-.contact{
+.container .contact{
     margin: 20px 0;
     border-radius: 10px;
     border: black 0.5px solid;
     padding: 30px;
 }
-.link{
+.container .link{
     text-decoration: none;
     color: #000;
 }
-.link:hover{
+.container .link:hover{
     color: indigo;
     font-weight: 600;
 }
