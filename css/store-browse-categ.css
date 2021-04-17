@@ -21,7 +21,15 @@ html {
     align-items: center;
     flex-wrap: wrap;
 }
-
+.title{
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
 .store {
     border: 3px solid black;
     margin: 20px 10px;

@@ -55,6 +55,7 @@ html {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .store {
@@ -118,7 +119,6 @@ body main {
 
 .s1 {
     display: flex;
-    margin-bottom: 30px;
 }
 
 .category {
