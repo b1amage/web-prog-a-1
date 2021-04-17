@@ -12,43 +12,34 @@ body
 }
 .container{
     margin-top: 120px;
+}
+.about,
+.team{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
 }
 /* title styling */
-.about .title,
-.team .title{
+.title{
     position: relative;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 50px;
-    padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
-.team .title{
-    margin-top: 80px;
-}
-.about .title::before,
-.team .title::before{
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    width: 200px;
-    height: 4px;
-    background: black;
-    transform: translateX(-50%);
+.line{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    height: 2px;
+    width: 185px;
+    opacity: 0.5;
 }
 /* avatar box styling */
-/* .team{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-} */
 .avatar-box{
     position: relative;
     width: 290px;

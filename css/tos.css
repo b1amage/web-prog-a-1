@@ -33,7 +33,7 @@ h2{
     font-weight: 600;
 }
 h3{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
 }
 h5{
@@ -46,6 +46,6 @@ ul{
 }
 p, li{
     color: black;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
 }
