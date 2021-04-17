@@ -137,6 +137,10 @@ body main {
     font-size: 80px;
 }
 
+.last {
+    margin-bottom: 200px;
+}
+
 @media only screen and (max-width: 1156px) {
     .s1 {
         margin-bottom: 350px;
