@@ -81,7 +81,7 @@ a.nav__link:hover {
 }
 
 a.nav__mobile-link {
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -281,7 +281,7 @@ a.nav__mobile-link {
 
 .hover-account,
 .hover-browse {
-    padding: 20px;
+    padding: 10px;
     list-style: none;
 }
 
