@@ -44,6 +44,7 @@ Nguyen Luu Quoc Bao (25%):
   - store-sample.html (a template for other stores)
 - Customize css file samples to support teammates (index, store-home, store-browse)
 - Support teammates with some responsive elements, fixing bugs and add animations
+- Finalize the HTML and CSS files
 
 Dao Kha Tuan (25%): 
 - HTML pages:
@@ -87,4 +88,23 @@ https://policies.google.com/terms?hl=en-US
 ### 4. Privacy Policies source:
 
 https://typeful.co/privacy-policy/RW-Z1mfH
+
+### 5. Images Source:
+
+All of the images from another source used in the website (in the store pages and products page) are from these brands:
+- Canva
+- Index.html:
+  - Nike, Adidas, GLAB, Rolex, Unilo
+  - The Mix, Vans, Puma, Bobui, KFC, Kick Geeks, Lv
+- Adler, Anice, Bcorner, Little Devil, Moji
+- Calvin Klein, G2000, Gap, H&M, Tommy HilFiger
+- Bibomart, BSmart, Circle K, Family Mart, MiniStop
+- Bach Hoa Xanh, Chopp.vn, Co.op mart, Speed L, VinMart
+- Chewy, Coupaw, Petmart, Dogcom, Petsmart
+- Apoteket, Eco-Pharceutical, NHS, Pharmacity, Terry White
+- Don Chicken, Gogi, Kichi Kichi, Pizza Hut, Wrap&Roll
+- An Nam, FPT, Halo, The Gioi Di Dong, CellPhoneS, GearVn
+- Deerus, FlyP, Impact
+- Babimart, Disney, Fat Brain, Funnyland, MyKingdom
+
 
