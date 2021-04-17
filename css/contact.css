@@ -118,6 +118,12 @@ div.contact_form label.message{
         border-radius: 0%;
         border-radius: 5%;
     }
+    input[type="text"], input[type="email"], input[type="tel"]{
+        width: 100%;
+        padding: 8px;
+        margin-top: auto;
+    }
+    
     .contact_form p{
         font-size: 15px;
     }
