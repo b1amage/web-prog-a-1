@@ -65,7 +65,7 @@ a.nav__link {
 }
 
 a.nav__link.push {
-    margin-left: 600px;
+    margin-left: 400px;
 }
 
 a.nav__link:hover {
@@ -171,7 +171,7 @@ a.nav__mobile-link {
     opacity: 1;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 1813px) {
     .nav__bars-btn {
         display: block;
     }
